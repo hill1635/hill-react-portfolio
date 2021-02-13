@@ -1,50 +1,38 @@
 [
     {
-        "title": "test",
+        "title": "Fitness Tracker",
         "img": "test",
-        "github": "test",
-        "deployed": "test"
+        "github": "https://github.com/hill1635/hill-workout-tracker",
+        "deployed": "https://hill-workout-tracker.herokuapp.com/"
     },
     {
-        "title": "test2",
+        "title": "Note Taker",
         "img": "test2",
-        "github" : "test2",
-        "deployed": "test2"
+        "github" : "https://github.com/hill1635/hill-note-taker-app",
+        "deployed": "https://serene-spire-16635.herokuapp.com/"
     },
     {
-        "title": "test3",
+        "title": "Team Profile Generator",
         "img": "test3",
-        "github" : "test3",
-        "deployed": "test3"
+        "github" : "https://github.com/hill1635/hill-employee-summary",
+        "deployed": "https://hill1635.github.io/hill-employee-summary/"
     },
     {
-        "title": "test4",
+        "title": "Drink Up",
         "img": "test4",
-        "github" : "test4",
-        "deployed": "test4"
+        "github": "https://github.com/lfelsted/project1",
+        "deployed" : "https://lfelsted.github.io/project1/"
     },
     {
-        "title": "test5",
+        "title": "Weather Dashboard",
         "img": "test5",
-        "github" : "test5",
-        "deployed": "test5"
+        "github" : "https://github.com/hill1635/hill-weather-app",
+        "deployed": "https://hill1635.github.io/hill-weather-app/"
     },
     {
-        "title": "test6",
+        "title": "Day Planner",
         "img": "test6",
-        "github" : "test6",
-        "deployed": "test6"
-    },
-    {
-        "title": "test7",
-        "img": "test7",
-        "github" : "test7",
-        "deployed": "test7"
-    },
-    {
-        "title": "test8",
-        "img": "test8",
-        "github" : "test8",
-        "deployed": "test8"
+        "github" : "https://github.com/hill1635/hill-day-planner",
+        "deployed": "https://hill1635.github.io/hill-day-planner/"
     }
 ]

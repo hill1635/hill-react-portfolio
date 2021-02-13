@@ -6,9 +6,9 @@ function Project() {
     <div>
       {projects.map((project) => (
         <div>
-            <h1>{project.title}</h1>
-            <p>{project.github}</p>
-            <p>{project.deployed}</p>
+            <h3>{project.title}</h3>
+            <p>Github: <a href={project.github} target="_blank">{project.github}</a></p>
+            <p>Deployed: <a href={project.deployed} target="_blank">{project.deployed}</a></p>
         </div>
       ))}
     </div>
