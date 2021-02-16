@@ -19,3 +19,12 @@ hr {
 h1 {
   text-align: center;
 }
+
+main {
+  width: 60%;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+}
