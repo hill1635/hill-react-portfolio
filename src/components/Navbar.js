@@ -5,6 +5,7 @@ function Navbar() {
   const location = useLocation;
 
   return (
+    <header>
       <ul>
         <li>
           <Link to="/" className="breadcrumb-divider">
@@ -22,6 +23,7 @@ function Navbar() {
           </Link>
         </li>
       </ul>
+    </header>
   );
 }
 
