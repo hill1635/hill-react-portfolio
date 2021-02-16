@@ -34,6 +34,11 @@ footer {
   width: 40%;
   border: solid;
   border-radius: 50px;
-  padding: 5px;
+  padding: 30px;
   display: block-inline;
+}
+
+img {
+  width: 250px;
+  border-radius: 5px;
 }

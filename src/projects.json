@@ -1,7 +1,7 @@
 [
     {
         "title": "Fitness Tracker",
-        "img": "test",
+        "img": "images/fitness-tracker.png",
         "github": "https://github.com/hill1635/hill-workout-tracker",
         "deployed": "https://hill-workout-tracker.herokuapp.com/"
     },
