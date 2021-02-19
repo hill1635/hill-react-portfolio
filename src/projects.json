@@ -7,31 +7,31 @@
     },
     {
         "title": "Note Taker",
-        "img": "test2",
+        "img": "images/note-taker.png",
         "github" : "https://github.com/hill1635/hill-note-taker-app",
         "deployed": "https://serene-spire-16635.herokuapp.com/"
     },
     {
-        "title": "Team Profile Generator",
-        "img": "test3",
-        "github" : "https://github.com/hill1635/hill-employee-summary",
-        "deployed": "https://hill1635.github.io/hill-employee-summary/"
+        "title": "Code Quiz",
+        "img": "images/code-quiz.png",
+        "github" : "https://github.com/hill1635/hill-coding-quiz",
+        "deployed": "https://hill1635.github.io/hill-coding-quiz/"
     },
     {
         "title": "Drink Up",
-        "img": "test4",
+        "img": "images/drink-up.png",
         "github": "https://github.com/lfelsted/project1",
         "deployed" : "https://lfelsted.github.io/project1/"
     },
     {
         "title": "Weather Dashboard",
-        "img": "test5",
+        "img": "images/weather-app.png",
         "github" : "https://github.com/hill1635/hill-weather-app",
         "deployed": "https://hill1635.github.io/hill-weather-app/"
     },
     {
         "title": "Day Planner",
-        "img": "test6",
+        "img": "images/day-planner.png",
         "github" : "https://github.com/hill1635/hill-day-planner",
         "deployed": "https://hill1635.github.io/hill-day-planner/"
     }
