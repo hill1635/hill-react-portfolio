@@ -2,7 +2,7 @@ import React from "react";
 
 function Bio() {
   return (
-    <main>
+    <main className="bio">
       <h1>About Me</h1>
       <hr className="solid"></hr>
       <p>Hello World!  I am a Full-Stack Developer with five months of experience.  I am currently enrolled in the University of Utah Coding Bootcamp and on track to graduate in March.  My front-end wheelhouse is in HTML, CSS, and Javascript.  My CSS background expands to the Bootstrap framework.  Javscript libraries learned include jQuery and React as well as server-side technologies such as AJAX and APIs.  On the back-end, I am knowledgeable in the Node.js environment and server creation with Node, Express and HTTP.  Database construction with MySQL, MongoDB, and IndexedDB using ORM and MVC techniques with Sequelize and Mongoose.  Sprinkle on top of that some testing with Jest and Progressive Web Apps with Webpack and that sums up the past five months for me!</p>

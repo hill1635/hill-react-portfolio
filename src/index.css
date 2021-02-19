@@ -21,7 +21,7 @@ h1 {
 }
 
 main {
-  width: 60%;
+  width: 75%;
   margin: auto;
 }
 
@@ -31,11 +31,11 @@ footer {
 
 .projectCard {
   text-align: center;
-  width: 40%;
+  width: 400px;
   border: solid;
   border-radius: 50px;
+  margin: 25px;
   padding: 30px;
-  display: block-inline;
 }
 
 img {
