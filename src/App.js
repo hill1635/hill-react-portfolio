@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="container col-12">
         <Navbar />
         <Route exact path="/" component={Bio} />
         <Route exact path="/portfolio" component={Portfolio} />

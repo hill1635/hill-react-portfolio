@@ -5,9 +5,9 @@ function Navbar() {
   const location = useLocation;
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light mx-auto">
       <div class="container-fluid">
-        <span class="navbar-brand disabled" href="#">
+        <span class="navbar-brand" href="#">
           Tucker Hill
         </span>
         <button
