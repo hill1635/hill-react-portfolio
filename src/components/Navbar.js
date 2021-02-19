@@ -5,7 +5,7 @@ function Navbar() {
   const location = useLocation;
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-light mx-auto">
+    <nav class="navbar navbar-expand-lg col-12 mx-auto">
       <div class="container-fluid">
         <span class="navbar-brand" href="#">
           Tucker Hill
@@ -23,13 +23,13 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <Link to="/" className="nav-link">
+            <Link to="/" className="nav-link text-white">
               Bio
             </Link>
-            <Link to="/portfolio" className="nav-link">
+            <Link to="/portfolio" className="nav-link text-white">
               Portfolio
             </Link>
-            <Link to="/contact" className="nav-link">
+            <Link to="/contact" className="nav-link text-white">
               Contact
             </Link>
           </div>
