@@ -6,13 +6,11 @@ function Project() {
   return (
     <div>
       {projects.map((project) => (
-        <div className="projectCard">
-          <div className="cardHeader pt-3">
+        <div className="card w-50 shadow-sm">
+          <img src={project.img} alt={project.title} className="card-img-top"></img>
+          <hr className="solid w-100"></hr>
+          <div className="card-body p-4">
             <h3>{project.title}</h3>
-          </div>
-          <div className="cardBody p-4">
-            <img src={project.img} alt={project.title} className="shadow-sm"></img>
-            <hr className="solid"></hr>
             <a href={project.github} target="_blank">GitHub</a>
             <a href={project.deployed} target="_blank">Deployed</a>
           </div>
