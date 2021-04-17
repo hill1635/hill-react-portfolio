@@ -1,0 +1,9 @@
+.projects {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+    width: 29%;
+}

@@ -4,13 +4,13 @@ import projects from "../../projects.json";
 
 function Project() {
   return (
-    <div className="col-12">
+    <div className="projects col-12">
       {projects.map((project) => (
-        <div className="card w-25 m-5 shadow-sm float-left">
+        <div className="card mx-auto mb-4 shadow-sm">
           <img src={project.img} alt={project.title} className="card-img-top"></img>
           <hr className="solid w-100"></hr>
-          <div className="card-body p-4">
-            <h3>{project.title}</h3>
+          <div className="card-body text-center p-1">
+            <h4>{project.title}</h4>
             <a href={project.github} target="_blank">GitHub</a>
             <a href={project.deployed} target="_blank">Deployed</a>
           </div>
