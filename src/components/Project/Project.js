@@ -4,9 +4,9 @@ import projects from "../../projects.json";
 
 function Project() {
   return (
-    <div>
+    <div className="col-12">
       {projects.map((project) => (
-        <div className="card w-50 shadow-sm">
+        <div className="card w-25 m-5 shadow-sm float-left">
           <img src={project.img} alt={project.title} className="card-img-top"></img>
           <hr className="solid w-100"></hr>
           <div className="card-body p-4">

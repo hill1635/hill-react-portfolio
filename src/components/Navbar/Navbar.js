@@ -6,8 +6,8 @@ function Navbar() {
   const location = useLocation;
 
   return (
-    <nav className="navbar navbar-expand-lg col-12 mx-auto">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg col-12 mx-auto bg-dark">
+      <div className="container-fluid col-12">
         <span className="navbar-brand" href="#">
           Tucker Hill
         </span>
