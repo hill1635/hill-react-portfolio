@@ -31,15 +31,17 @@ footer {
 }
 
 .header {
+  display: inline-block;
   font-size: 60px;
   font-family: 'Sanchez', serif;
   overflow: hidden;
-  border-right: .15em black;
+  border-right: solid;
+  /* border-right: .15em black; */
   white-space: nowrap;
   margin: 0;
   animation:
   typing 1.75s steps(60, end),
-  blink-caret 1s step-end infinite;
+  blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
