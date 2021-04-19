@@ -6,7 +6,7 @@ function Navbar() {
   const location = useLocation;
 
   return (
-    <nav className="navbar navbar-expand-lg col-12 mx-auto bg-dark">
+    <nav className="navbar navbar-expand-lg col-12 mx-auto pb-2 shadow-lg">
       <div className="container-fluid col-12">
         <span className="navbar-brand" href="#">
           Tucker Hill

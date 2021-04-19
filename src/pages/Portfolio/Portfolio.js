@@ -9,9 +9,9 @@ function Portfolio() {
       <aside className="float-left">
         <Sidebar />
       </aside>
-      <main className="portfolio">
-        <h1>Portfolio</h1>
-        <hr className="solid"></hr>
+      <main>
+        <h1 className="pl-4">Portfolio</h1>
+        <hr className="solid ml-4 w-50"></hr>
           <Project />
       </main>
     </div>
