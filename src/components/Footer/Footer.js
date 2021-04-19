@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-      <footer className="position-fixed col-12">
+      <footer className="footer col-12">
         <a href="https://github.com/hill1635">GitHub</a>
         <p>©Tucker Hill</p>
       </footer>
