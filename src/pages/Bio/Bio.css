@@ -1,12 +1,11 @@
-.header {
+/* .header {
     font-size: 60px;
     overflow: hidden;
     border-right: .15em black;
-    letter-spacing: .10em;
     white-space: nowrap;
     margin: 0;
     animation:
-    typing 1.5s steps(60, end),
+    typing 1.75s steps(60, end),
     blink-caret 1s step-end infinite;
 }
 
@@ -18,4 +17,4 @@
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: black; }
-}
+} */

@@ -4,7 +4,7 @@ import "./Contact.css";
 function Contact() {
   return (
     <main className="contact">
-      <h1>Contact</h1>
+      <h1 className="header">Contact.</h1>
       <hr className="solid"></hr>
       <p>Phone: (207) 890-8694</p>
       <p>
