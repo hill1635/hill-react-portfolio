@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,7 +14,7 @@ code {
 
 main {
   width: 95%;
-  margin: 25px auto 25px auto;
+  margin: 0px auto 25px auto;
   background-color: white;
   padding: 50px 75px 75px 75px;
   border-radius: 10px;
@@ -33,23 +33,34 @@ footer {
 .header {
   display: inline-block;
   font-size: 60px;
-  font-family: 'Sanchez', serif;
+  font-family: "Sanchez", serif;
   overflow: hidden;
   border-right: solid;
   /* border-right: .15em black; */
   white-space: nowrap;
-  margin: 0;
-  animation:
-  typing 1.75s steps(60, end),
-  blink-caret .75s step-end infinite;
+  margin: 0px;
+  animation: typing 1.75s steps(60, end), blink-caret 0.75s step-end infinite;
+}
+
+.content {
+  margin: 75px 0px 50px 0px;
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
 }

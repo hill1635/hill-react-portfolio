@@ -12,7 +12,9 @@ function Portfolio() {
       <main>
         <h1 className="pl-4 header">Portfolio.</h1>
         <hr className="solid ml-4 w-50"></hr>
+        <div className="content">
           <Project />
+        </div>
       </main>
     </div>
   );
