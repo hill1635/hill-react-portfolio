@@ -3,11 +3,22 @@ import "./Navbar.css";
 import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
-  const location = useLocation;
+  const scrollLength = 100;
+  var opacity = "";
+
+  window.addEventListener("scroll", () => {
+    const currentPosition = window.pageYOffset;
+    if(currentPosition <= scrollLength) {
+      opacity = 1 - currentPosition / scrollLength;
+    } else {
+      opacity = 0;
+    }
+    document.querySelector(".navbar").style.opacity = opacity;
+  });
 
   return (
-    <nav className="navbar navbar-expand-lg col-12 mx-auto pb-2 shadow-lg">
-      <div className="container-fluid col-12">
+    <nav className="navbar navbar-expand-lg col-12 shadow-lg">
+      <div className="container container-fluid col-12">
         <span className="navbar-brand" href="#">
           Tucker Hill
         </span>
