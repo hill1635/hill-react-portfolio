@@ -3,7 +3,7 @@ import "./Sidebar.css";
 
 function Sidebar() {
   return (
-    <div className="btn-group-vertical buttons position-fixed pl-3">
+    <div className="btn-group-vertical buttons position-fixed pl-3 pt-3 mt-5">
       <button className="rounded-circle mb-2 btn-dark shadow-lg"><img src="./icons/star.svg"></img></button>
       <button className="rounded-circle mb-2 btn-dark shadow-lg"><img src="./icons/bootstrap.svg"></img></button>
       <button className="rounded-circle mb-2 btn-dark shadow-lg"><img src="./icons/javascript.svg"></img></button>
