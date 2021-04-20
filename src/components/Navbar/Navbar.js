@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg col-12 shadow-lg">
       <div className="container container-fluid col-12">
-        <span className="navbar-brand" href="#">
+        <span className="name mr-3">
           Tucker Hill
         </span>
         <button
@@ -34,7 +34,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="links navbar-nav">
             <Link to="/" className="nav-link text-white">
               Bio
             </Link>

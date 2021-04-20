@@ -3,7 +3,13 @@ nav {
     opacity: 98%;
 }
 
-span {
-    font-family: 'Newsreader', serif;
+.name {
+    font-size: 24px;
+    font-family: 'Sanchez', serif;
     color: rgb(255, 255, 255);
+}
+
+.links {
+    font-family: Sanchez, serif;
+    font-size: 18px;
 }
