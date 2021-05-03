@@ -2,3 +2,27 @@ img {
   max-height: 300px;
   max-width: 300px;
 }
+
+.card {
+animation-duration: 2s;
+}
+
+.ease-right {
+  animation-name: ease-right;
+  animation-timing-function: ease;
+}
+
+@keyframes ease-right {
+  0% { transform: translateX(-50px); }
+  100% { transform: translateX(0); }
+}
+
+.ease-left {
+  animation-name: ease-left;
+  animation-timing-function: ease;
+}
+
+@keyframes ease-left {
+  0% { transform: translateX(50px); }
+  100% { transform: translateX(0); }
+}
