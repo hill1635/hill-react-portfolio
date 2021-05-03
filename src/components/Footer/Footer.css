@@ -1,8 +1,16 @@
 footer {
   font-family: "Sanchez", serif;
   font-size: 18px;
-  background-color: rgb(37, 37, 38);
   opacity: 98%;
+  background: linear-gradient(
+    15deg,
+    rgb(26, 26, 26),
+    rgb(26, 26, 26, 0.98),
+    rgb(26, 26, 26, 0.99),
+    rgba(26, 26, 26, 0.97),
+    rgb(26, 26, 26, 0.98),
+    rgb(26, 26, 26, 0.96)
+  );
 }
 
 .icon {

@@ -1,6 +1,14 @@
 nav {
-  background-color: rgb(37, 37, 38);
-  opacity: 95%;
+  background: linear-gradient(
+    15deg,
+    rgb(25, 25, 25),
+    rgb(25, 25, 25, 0.98),
+    rgb(25, 25, 25, 0.99),
+    rgba(25, 25, 25, 0.97),
+    rgb(25, 25, 25, 0.98),
+    rgb(25, 25, 25, 0.96)
+  );
+  opacity: 98%;
   border: solid;
   border-width: 0px 0px 3px 0px;
   border-color: linear;
