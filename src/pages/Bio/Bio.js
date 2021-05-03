@@ -5,7 +5,7 @@ function Bio() {
   return (
     <main className="bio col-9 mt-5 pt-2">
       <h1 className="header">About Me.</h1>
-      <hr className="solid"></hr>
+      <hr className="solid shadow-md"></hr>
       <div className="content">
         <section className="card col-10 row mt-0 g-0 p-0 float-left ease-right">
           <img src="./icons/placeholder.png" className="col-5"></img>

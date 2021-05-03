@@ -17,6 +17,10 @@ main {
   border-radius: 10px;
 }
 
+h1 {
+  text-shadow: .75px .75px rgba(0, 0, 0, 0.25);
+}
+
 footer {
   text-align: center;
   bottom: 0;
