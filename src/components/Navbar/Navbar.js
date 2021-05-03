@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
     <div className="wrapper">
-      <nav className="navbar navbar-expand-lg col-12 shadow-lg">
+      <nav className="navbar navbar-expand-lg col-12 shadow-lg pt-2 pb-1">
         <div className="container container-fluid col-12">
           <span className="name mr-3">Tucker Hill</span>
           <button
