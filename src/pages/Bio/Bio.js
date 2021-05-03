@@ -3,7 +3,7 @@ import "./Bio.css";
 
 function Bio() {
   return (
-    <main className="bio col-12">
+    <main className="bio col-9 mt-5 pt-2">
       <h1 className="header">About Me.</h1>
       <hr className="solid"></hr>
       <div className="content">

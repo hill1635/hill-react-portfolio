@@ -14,7 +14,6 @@ code {
 
 main {
   margin: 0px auto 25px auto;
-  background-color: white;
   border-radius: 10px;
 }
 
@@ -23,8 +22,9 @@ footer {
   bottom: 0;
 }
 
-.container {
+.container-flex {
   min-height: 100%;
+  background-color: rgba(112, 128, 144, 0.10);
 }
 
 .header {
