@@ -13,10 +13,8 @@ code {
 }
 
 main {
-  width: 95%;
   margin: 0px auto 25px auto;
   background-color: white;
-  padding: 50px 75px 75px 75px;
   border-radius: 10px;
 }
 
