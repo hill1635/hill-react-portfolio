@@ -1,15 +1,30 @@
 nav {
-    background-color: rgb(37, 37, 38);
-    opacity: 98%;
+  background-color: rgb(37, 37, 38);
+  opacity: 95%;
+  border: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: linear;
 }
 
 .name {
-    font-size: 24px;
-    font-family: 'Sanchez', serif;
-    color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-family: "Sanchez", serif;
+  color: rgb(255, 255, 255);
 }
 
 .links {
-    font-family: Sanchez, serif;
-    font-size: 18px;
+  font-family: Sanchez, serif;
+  font-size: 18px;
+}
+
+.nav-border {
+  width: 100%;
+  padding: 1.25px;
+  background: linear-gradient(
+    to right,
+    rgb(22, 103, 195),
+    rgb(113, 26, 144),
+    rgb(227, 31, 13)
+  );
+  opacity: 85%;
 }

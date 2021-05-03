@@ -18,3 +18,15 @@ footer {
 .copywrite {
   color: rgb(255, 255, 255);
 }
+
+.footer-border {
+  width: 100%;
+  padding: 1.5px;
+  background: linear-gradient(
+    to right,
+    rgb(227, 31, 13),
+    orange,
+    yellow
+  );
+  opacity: 85%;
+}
