@@ -7,7 +7,7 @@ function Bio() {
       <h1 className="header">About Me.</h1>
       <hr className="solid"></hr>
       <div className="content">
-        <section className="card col-8 row mt-0 g-0 p-0 float-left ease-right">
+        <section className="card col-10 row mt-0 g-0 p-0 float-left ease-right">
           <img src="./icons/placeholder.png" className="col-5"></img>
           <p>
             Hello World! I am a Full-Stack Developer with five months of
@@ -22,7 +22,7 @@ function Bio() {
             options suited to their specific needs.
           </p>
         </section>
-        <section className="card col-8 row mt-0 g-0 p-0 float-right ease-left">
+        <section className="card col-10 row mt-0 g-0 p-0 float-right ease-left">
           <p>
             My front-end wheelhouse is in HTML, CSS, and Javascript. My CSS
             background expands to the Bootstrap framework. Javscript libraries
@@ -31,7 +31,7 @@ function Bio() {
           </p>
           <img src="./icons/placeholder.png"></img>
         </section>
-        <section className="card col-8 row mt-0 g-0 p-0 float-left ease-right">
+        <section className="card col-10 row mt-0 g-0 p-0 float-left ease-right">
           <img src="./icons/placeholder.png"></img>
           <p>
             On the back-end, I am knowledgeable in the Node.js environment and
@@ -40,14 +40,14 @@ function Bio() {
             Sequelize and Mongoose.
           </p>
         </section>
-        <section className="card col-8 row mt-0 g-0 p-0 float-right ease-left">
+        <section className="card col-10 row mt-0 g-0 p-0 float-right ease-left">
           <p>
             Sprinkle on top of that some testing with Jest and Progressive Web
             Apps with Webpack and that sums up the past five months for me!
           </p>
           <img src="./icons/placeholder.png"></img>
         </section>
-        <section className="card col-8 mx-auto">
+        <section className="card col-10 mx-auto">
           <p>
             If you would like to learn more about me, check out my resume{" "}
             <a
