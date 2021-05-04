@@ -17,12 +17,12 @@ function Navbar() {
   });
 
   return (
-    <div className="wrapper">
-      <nav className="navbar navbar-expand-lg col-12 shadow-lg pt-2 pb-1">
+    <div className="wrapper p-3">
+      <nav className="navbar navbar-expand-lg col-12 shadow-lg pt-2 pb-1 rounded-top">
         <div className="container container-fluid col-12">
           <span className="name mr-3">Tucker Hill</span>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler border border-solid rounded"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -30,7 +30,7 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <i class="fas fa-align-right menu-btn"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="links navbar-nav">
@@ -47,7 +47,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="nav-border"></div>
+      <div className="nav-border rounded-bottom"></div>
     </div>
   );
 }

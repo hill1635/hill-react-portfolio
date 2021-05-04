@@ -3,6 +3,7 @@ body {
   padding: 0;
   height: 100%;
   font-family: "Roboto Condensed", sans-serif;
+  background-color: rgba(112, 128, 144, 0.10);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -37,7 +38,6 @@ footer {
   font-family: "Sanchez", serif;
   overflow: hidden;
   border-right: solid;
-  /* border-right: .15em black; */
   white-space: nowrap;
   margin: 0px;
   animation: typing .5s steps(120, end), blink-caret 0.75s step-end infinite;
