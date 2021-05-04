@@ -6,9 +6,9 @@ function Project() {
   return (
     <div className="projects col-12">
       {projects.map((project) => (
-        <div className="card col-5 mx-auto mb-4 shadow-sm">
-            <img src={project.img} alt={project.title} className="m-0 p-0 border-bottom col-12"></img>
-          <div className="card-body text-center p-3">
+        <div className="card bg-transparent project-card col-5 mx-auto mb-5 shadow-sm p-0">
+            <img src={project.img} alt={project.title} className="project-img m-0 p-0 border-bottom"></img>
+          <div className="card-body bg-white project-body text-center p-3">
             <h4>{project.title}</h4>
             <a href={project.github} target="_blank">GitHub</a>
             <i class="fas fa-grip-lines-vertical mx-1"></i>
