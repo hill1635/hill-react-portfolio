@@ -27,7 +27,7 @@ nav {
 
 .nav-border {
   width: 100%;
-  padding: 1.25px;
+  padding: 2px;
   background: linear-gradient(
     to right,
     rgb(22, 103, 195),
