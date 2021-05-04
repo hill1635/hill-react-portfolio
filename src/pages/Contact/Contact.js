@@ -14,10 +14,7 @@ function Contact() {
             hill1635@gmail.com
           </a>
         </p>
-        <a
-          href="https://www.linkedin.com/in/tucker-hill-5254b979/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/tucker-hill-5254b979/" target="_blank">
           LinkedIn
         </a>
       </div>
