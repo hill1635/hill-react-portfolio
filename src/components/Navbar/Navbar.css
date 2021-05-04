@@ -36,3 +36,15 @@ nav {
   );
   opacity: 85%;
 }
+
+.b-icon {
+  color: rgb(22, 103, 195, 0.95);
+}
+
+.p-icon {
+  color: rgb(113, 26, 144, 0.95);
+}
+
+.c-icon {
+  color: rgb(227, 31, 13, 0.95);
+}

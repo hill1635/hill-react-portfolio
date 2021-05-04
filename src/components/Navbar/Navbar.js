@@ -35,13 +35,13 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="links navbar-nav">
               <Link to="/" className="nav-link text-white">
-                Bio
+              <i class="fas fa-angle-right mr-1 b-icon"></i>Bio
               </Link>
               <Link to="/portfolio" className="nav-link text-white">
-                Portfolio
+              <i class="fas fa-angle-right mr-1 p-icon"></i>Portfolio
               </Link>
               <Link to="/contact" className="nav-link text-white">
-                Contact
+                <i class="fas fa-angle-right mr-1 c-icon"></i>Contact
               </Link>
             </div>
           </div>

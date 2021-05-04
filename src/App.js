@@ -5,6 +5,9 @@ import Footer from "./components/Footer/Footer.js";
 import Bio from "./pages/Bio/Bio.js";
 import Portfolio from "./pages/Portfolio/Portfolio.js";
 import Contact from "./pages/Contact/Contact.js";
+import '@fortawesome/fontawesome-free/js/all.js';
+import '@fortawesome/fontawesome-free/css/all.css';
+
 import "./App.css";
 
 function App() {
