@@ -13,9 +13,9 @@
 }
 
 .project-card {
-  border-radius: 10px 10px 10px 10px;
-  border: dashed;
+  border: solid;
   border-color: rgb(0, 183, 255);
+  border-radius: 15px 15px 15px 15px;
 }
 
 .project-body {
