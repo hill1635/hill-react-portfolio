@@ -29,15 +29,3 @@
 .wrapper {
   max-width: 375px;
 }
-
-/* .gradient-border {
-  background:
-  linear-gradient(
-    145deg,
-    rgb(15, 83, 175, 0.80),
-    rgb(70, 16, 175, 0.80),
-    rgb(15, 83, 175, 0.80),
-    rgb(70, 16, 175, 0.80)
-  );
-  border-radius: 5px;
-} */

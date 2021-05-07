@@ -1,0 +1,24 @@
+.stack {
+    margin: 100px auto 100px auto;
+}
+
+.contact {
+    border: solid;
+    border-radius: 0px;
+    border-width: 3px;
+    margin: -7px 7px 7px -7px;
+}
+
+.card-1 {
+    border: solid;
+    border-radius: 0px;
+    border-width: 3px;
+    margin: -7px 7px 7px -7px;
+}
+
+.card-2 {
+    border: solid;
+    border-radius: 0px;
+    border-width: 3px;
+    margin: 7px -7px -7px 7px;
+}
