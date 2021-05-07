@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="wrapper p-3">
+    <div className="wrapper p-3 col-12">
       <div className="footer-border rounded-top"></div>
       <footer className="footer col-12 pt-1 pb-3 rounded-bottom">
         <p className="copywrite mt-2 mb-0">©Tucker Hill</p>

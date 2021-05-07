@@ -20,7 +20,7 @@ function Navbar() {
     <div className="wrapper col-12 p-3">
       <nav className="navbar navbar-expand-lg col-12 shadow-lg pt-2 pb-1 rounded-top">
         <div className="container container-fluid col-12">
-          <span className="name mr-3">Tucker Hill</span>
+          <span className="name ml-0 mr-4">Tucker Hill</span>
           <button
             className="navbar-toggler border border-solid rounded"
             type="button"
@@ -34,13 +34,13 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="links navbar-nav">
-              <Link to="/" className="nav-link text-white">
+              <Link to="/" className="nav-link text-white mr-1">
               <i class="fas fa-angle-right mr-1 b-icon"></i>About
               </Link>
-              <Link to="/portfolio" className="nav-link text-white">
+              <Link to="/portfolio" className="nav-link text-white mr-1">
               <i class="fas fa-angle-right mr-1 p-icon"></i>Portfolio
               </Link>
-              <Link to="/contact" className="nav-link text-white">
+              <Link to="/contact" className="nav-link text-white mr-1">
                 <i class="fas fa-angle-right mr-1 c-icon"></i>Contact
               </Link>
             </div>
