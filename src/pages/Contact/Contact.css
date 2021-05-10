@@ -22,3 +22,8 @@
     border-width: 3px;
     margin: 7px -7px -7px 7px;
 }
+
+.contact, .card-1, .card-2 {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(25, 25, 25, 0.25);
+}
