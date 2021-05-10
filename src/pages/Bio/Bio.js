@@ -4,22 +4,13 @@ import "./Bio.css";
 function Bio() {
   return (
     <main className="bio col-9 mt-5 pt-2">
-      <h1 className="header">About Me.</h1>
+      <h1 className="header">'Hello World!'</h1>
       <hr className="solid shadow-md"></hr>
       <div className="content">
         <section className="card col-10 row mt-0 g-0 p-0 float-left ease-right">
           <img src="./icons/placeholder.png" className="col-5"></img>
           <p>
-            Hello World! I am a Full-Stack Developer with five months of
-            experience. I am currently enrolled in the University of Utah Coding
-            Bootcamp and on track to graduate in March. My goal as a Developer
-            is to continue honing my current skills and becoming one step closer
-            to mastery. In addition to this, I strive to continue learning new
-            skills, technologies and languages. Coding is a continually evolving
-            craft and the sheer amount of tools out there to learn is incredibly
-            exciting as one who is always looking to push myself further and
-            grow. Flexibility is also key to providing clients with the best
-            options suited to their specific needs.
+            I am a Full-Stack Developer and recent graduate from the University of Utah Coding Bootcamp with eight months of experience.
           </p>
         </section>
         <section className="card col-10 row mt-0 g-0 p-0 float-right ease-left">
