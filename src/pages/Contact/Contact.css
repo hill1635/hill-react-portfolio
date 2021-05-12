@@ -3,6 +3,22 @@
   font-family: "Sanchez", serif;
 }
 
+.contact,
+.card-1,
+.card-2,
+.card-3 {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(25, 25, 25, 0.25);
+  border: solid;
+  border-width: 2px;
+  width: 700px;
+  height: 400px;
+  margin: -10px 0px 0px 0px;
+  animation-name: drop;
+  animation-timing-function: ease;
+  animation-duration: .5s;
+}
+
 .contact {
   background: linear-gradient(
     145deg,
@@ -14,16 +30,6 @@
   border-radius: 5px;
 }
 
-.contact, .card-1, .card-2, .card-3 {
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px rgb(25, 25, 25, 0.25);
-  border: solid;
-  border-width: 2px;
-  width: 700px;
-  height: 400px;
-  margin: -10px 0px 0px 0px;
-}
-
 .info {
   background-color: white;
   color: rgb(25, 25, 25);
@@ -31,7 +37,7 @@
   border: solid;
   border-width: 0px 0px 0px 3px;
   box-shadow: -1px 1px 5px -3px;
-  text-shadow: .75px .75px 0px rgba(25, 25, 25, .50);
+  text-shadow: 0.75px 0.75px 0px rgba(25, 25, 25, 0.5);
   text-align: right;
 }
 .logo {
@@ -46,7 +52,7 @@
 .letters {
   margin: 45px 0px 0px -20px;
   padding: 0px 0px 0px 25px;
-  text-shadow: .75px .75px 0px rgba(25, 25, 25, .50);
+  text-shadow: 0.75px 0.75px 0px rgba(25, 25, 25, 0.5);
 }
 
 .letter-t {
@@ -64,10 +70,19 @@
 
 .card-name {
   font-size: 40px;
-  text-shadow: .75px .75px 0px rgba(25, 25, 25, .50);
+  text-shadow: 0.75px 0.75px 0px rgba(25, 25, 25, 0.5);
 }
 
 .content {
   font-family: "Varela Round", sans-serif;
   font-size: 18px;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateX(-10px) translateY(-10px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
 }
