@@ -13,7 +13,7 @@ function Navbar() {
     } else {
       opacity = 0;
     }
-    document.querySelector(".navbar").style.opacity = opacity;
+    document.querySelector(".wrapper").style.opacity = opacity;
   });
 
   return (
