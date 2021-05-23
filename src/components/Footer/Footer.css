@@ -29,6 +29,7 @@ footer {
 
 .footer-border {
   width: 100%;
+  margin-top: 100px;
   padding: 2px;
   background: linear-gradient(
     to right,

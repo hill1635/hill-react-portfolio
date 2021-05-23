@@ -1,15 +1,43 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Bio.css";
 
 function Bio() {
+  useEffect(() => {
+    var next = document.querySelector(".next");
+    var prev = document.querySelector(".prev");
+    var hello = document.querySelector(".hello");
+    var background = document.querySelector(".background");
+
+    next.addEventListener("click", function () {
+      hello.style.display = "none";
+      background.style.display = "block";
+    });
+
+    prev.addEventListener("click", function () {
+      hello.style.display = "block";
+      background.style.display = "none";
+    });
+  });
+
   return (
-    <main className="bio col-9 mt-5 pt-2">
-      <div className="col-6 mx-auto text-center">
+    <main className="bio col-9 pt-2">
+      <div className="hello col-lg-8 col-md-10 col-sm-12 mx-auto text-center">
         <h1 className="header">'Hello World!'</h1>
         <hr className="solid shadow-md"></hr>
+        <p className="intro">My name is Tucker and I'm a full-stack developer.</p>
+        <span className="next">
+        <i class="fas fa-chevron-down arrow"></i>
+        <i class="fas fa-chevron-down arrow"></i>
+        <i class="fas fa-chevron-down arrow"></i>
+        </span>
       </div>
-      <div className="content col-11 mx-auto">
-        <section className="col-11 row g-0 p-0 ease-right">
+      <div className="content background col-11 mx-auto">
+        <span className="prev">
+          <i class="fas fa-chevron-up arrow"></i>
+          <i class="fas fa-chevron-up arrow"></i>
+          <i class="fas fa-chevron-up arrow"></i>
+        </span>
+        <section className="col-11 row g-0 p-0 ease-right mt-3">
           <div className="col-5 m-0">
             <img src="./icons/placeholder.png" className="rounded-circle"></img>
           </div>

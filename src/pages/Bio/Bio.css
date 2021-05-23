@@ -7,8 +7,32 @@ section {
   height: 250px;
 }
 
-.content {
+.hello {
+  margin: 100px auto 100px auto;
+}
+
+.intro {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.next {
+  cursor: pointer;
+}
+
+.prev {
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 36px;
+  margin: 100px 10px 0px 10px;
+}
+
+.background {
   text-align: center;
+  display: none;
+  margin-top: -50px;
 }
 
 .ease-right {
