@@ -1,9 +1,9 @@
 import React from "react";
 import "./Navbar.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  const scrollLength = 100;
+  const scrollLength = 200;
   var opacity = "";
 
   window.addEventListener("scroll", () => {
@@ -13,14 +13,16 @@ function Navbar() {
     } else {
       opacity = 0;
     }
-    document.querySelector(".wrapper").style.opacity = opacity;
+    document.querySelector(".name").style.opacity = opacity;
   });
 
   return (
-    <div className="wrapper col-12 p-3">
-      <nav className="navbar navbar-expand-lg col-12 shadow-lg pt-2 pb-1 rounded-top">
+      <nav className="navbar navbar-expand-lg col-12 pt-2 pb-1">
+        <span className="name position-fixed rounded shadow-sm">
+          <span className="col-12 initial-t">T</span>
+          <span className="col-12 initial-h">H</span>
+        </span>
         <div className="container container-fluid col-12">
-          <span className="name ml-0 mr-4">Tucker Hill</span>
           <button
             className="navbar-toggler border border-solid rounded"
             type="button"
@@ -33,22 +35,32 @@ function Navbar() {
             <i class="fas fa-align-right menu-btn"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="links navbar-nav">
-              <Link to="/" className="nav-link text-white mr-1">
-              <i class="fas fa-angle-right mr-1 b-icon"></i>About
+            <div class="links navbar-nav mx-auto">
+              <Link to="/" className="nav-link mr-5">
+              <i className="fas fa-angle-right mr-1 b-icon"></i>
+              <div className="d-inline-block">
+              <span className="link-text">About</span>
+              <div className="underline u-about"></div>
+              </div>
               </Link>
-              <Link to="/portfolio" className="nav-link text-white mr-1">
-              <i class="fas fa-angle-right mr-1 p-icon"></i>Portfolio
+              <Link to="/portfolio" className="nav-link mr-5">
+              <i className="fas fa-angle-right mr-1 p-icon"></i>
+              <div className="d-inline-block">
+              <span className="link-text">Portfolio</span>
+              <div className="underline u-portfolio"></div>
+              </div>
               </Link>
-              <Link to="/contact" className="nav-link text-white mr-1">
-                <i class="fas fa-angle-right mr-1 c-icon"></i>Contact
+              <Link to="/contact" className="nav-link">
+                <i className="fas fa-angle-right mr-1 c-icon"></i>
+                <div className="d-inline-block">
+                <span className="link-text">Contact</span>
+                <div className="underline u-contact"></div>
+                </div>
               </Link>
             </div>
           </div>
         </div>
       </nav>
-      <div className="nav-border rounded-bottom"></div>
-    </div>
   );
 }
 
