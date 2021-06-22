@@ -37,7 +37,7 @@ function Bio() {
           <i class="fas fa-chevron-up arrow"></i>
           <i class="fas fa-chevron-up arrow"></i>
         </span>
-        <section className="col-11 row g-0 p-0 ease-right mt-3">
+        <section className="col-11 row g-0 p-0 ease-right">
           <div className="col-5 m-0">
             <img src="./icons/placeholder.png" className="rounded-circle"></img>
           </div>

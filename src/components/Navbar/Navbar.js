@@ -17,7 +17,7 @@ function Navbar() {
   });
 
   return (
-      <nav className="navbar navbar-expand-lg col-12 pt-2 pb-1">
+      <nav className="navbar navbar-expand-lg col-12 pt-2 pb-1 mb-5">
         <span className="name position-fixed rounded shadow-sm">
           <span className="col-12 initial-t">T</span>
           <span className="col-12 initial-h">H</span>
