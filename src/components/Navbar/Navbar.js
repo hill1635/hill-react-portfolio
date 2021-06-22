@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const scrollLength = 200;
+  const scrollLength = 525;
   var opacity = "";
 
   window.addEventListener("scroll", () => {
