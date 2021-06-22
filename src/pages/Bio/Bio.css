@@ -8,11 +8,10 @@ section {
 }
 
 .hello {
-  margin: 100px auto 100px auto;
+  margin: 50px auto 100px auto;
 }
 
 .intro {
-  /* margin-top: 30px; */
   font-size: 24px;
 }
 
@@ -31,6 +30,7 @@ section {
 
 .background {
   text-align: center;
+  display: none;
 }
 
 .ease-right {
