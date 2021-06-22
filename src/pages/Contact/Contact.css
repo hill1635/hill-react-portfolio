@@ -31,7 +31,7 @@
 }
 
 .info {
-  background-color: white;
+  background-color: #FBFBF9;
   color: rgb(25, 25, 25);
   border-radius: 0px 3px 3px 0px;
   border: solid;
@@ -41,7 +41,7 @@
   text-align: right;
 }
 .logo {
-  background-color: white;
+  background-color: #FBFBF9;
   border-radius: 5px 200px 200px 5px;
   border: solid;
   border-width: 3px 3px 3px 0px;
