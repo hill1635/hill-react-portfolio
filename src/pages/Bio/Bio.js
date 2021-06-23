@@ -75,14 +75,14 @@ function Bio() {
             <img src="./icons/placeholder.png"></img>
           </div>
         </section>
-        <section className="card col-11 mx-auto">
+        <section className="card col-11 mx-auto bg-transparent border-0">
           <p>
-            If you would like to learn more about me, check out my resume{" "}
+            If you would like to learn more about me, check out my{" "}
             <a
               href="https://drive.google.com/file/d/11tDvnpqogtIGNSmkWVSz8V4KxkUJ0dKB/view?usp=sharing"
               target="_blank"
             >
-              here
+              resume
             </a>
             .
           </p>
