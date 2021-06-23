@@ -28,7 +28,7 @@ function Bio() {
       <div className="content background col-11 mx-auto">
         <section className="col-11 row g-0 p-0 ease-right">
           <div className="col-5 m-0">
-            <img src="./icons/placeholder.png" className="rounded-circle"></img>
+            <img src="./images/me.jpg" className="bio-pics rounded-circle shadow"></img>
           </div>
           <div className="col-7 m-0 text-left">
             <p>
@@ -48,12 +48,12 @@ function Bio() {
             </p>
           </div>
           <div className="col-5 m-0">
-            <img src="./icons/placeholder.png" className="rounded"></img>
+            <img src="./images/frontend.png" className="bio-pics rounded-circle shadow"></img>
           </div>
         </section>
         <section className="col-11 row g-0 p-0 ease-right">
           <div className="col-5 m-0">
-            <img src="./icons/placeholder.png"></img>
+            <img src="./images/network.jpeg" className="bio-pics rounded-circle shadow"></img>
           </div>
           <div className="col-7 m-0 text-left">
             <p>
@@ -72,7 +72,7 @@ function Bio() {
             </p>
           </div>
           <div className="col-5 m-0">
-            <img src="./icons/placeholder.png"></img>
+            <img src="./images/other.png" className="bio-pics rounded-circle shadow"></img>
           </div>
         </section>
         <section className="card col-11 mx-auto bg-transparent border-0">
