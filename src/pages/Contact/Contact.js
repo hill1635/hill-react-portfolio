@@ -3,7 +3,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <main className="stack col-7 bg-transparent p-0">
+    <main className="stack col-7 bg-transparent p-0 mx-auto">
       <div className="card-1 row">
         <div className="card-2 row bg-white">
           <div className="card-3 row bg-white">
