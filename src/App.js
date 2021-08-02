@@ -7,10 +7,10 @@ import Portfolio from "./pages/Portfolio/Portfolio.js";
 import Contact from "./pages/Contact/Contact.js";
 import '@fortawesome/fontawesome-free/js/all.js';
 import '@fortawesome/fontawesome-free/css/all.css';
-
 import "./App.css";
 
 function App() {
+  console.log(process.env.NODE_ENV);
   return (
     <Router>
       <div className="container-flex col-12 p-0 m-0">
