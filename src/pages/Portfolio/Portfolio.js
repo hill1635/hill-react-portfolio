@@ -10,7 +10,7 @@ function Portfolio() {
         <Sidebar />
       </aside> */}
       <main className="col-9 mt-5 pt-2">
-        <h1 className="pl-4 header">Portfolio.</h1>
+        {/* <h1 className="pl-4 header">Portfolio.</h1> */}
         <hr className="solid ml-4 w-50"></hr>
         <div className="content">
           <Project />
