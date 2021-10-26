@@ -3,8 +3,8 @@ import "./AboutMeDiv.css";
 
 function AboutMeDiv() {
   return (
-    <div className="aboutMe drop col-lg-10 col-md-11 col-sm-12 mx-auto text-center bg-light shadow-lg mt-5">
-      <section className="col-11 row g-0 p-0 ease-right">
+    <div className="aboutMe drop col-lg-10 col-md-11 col-sm-12 text-center bg-light shadow-lg mx-auto mt-5 p-5">
+      <section className="col-11 row g-0 p-2 ease-right">
         <div className="col-5 m-0">
           <img
             src="./images/me.jpg"
@@ -18,7 +18,7 @@ function AboutMeDiv() {
           </p>
         </div>
       </section>
-      <section className="col-11 row g-0 p-0 ease-left">
+      <section className="col-11 row g-0 p-2 ease-left">
         <div className="col-7 m-0 text-right">
           <p>
             My front-end wheelhouse is in HTML, CSS, and Javascript. My CSS
@@ -34,7 +34,7 @@ function AboutMeDiv() {
           ></img>
         </div>
       </section>
-      <section className="col-11 row g-0 p-0 ease-right">
+      <section className="col-11 row g-0 p-2 ease-right">
         <div className="col-5 m-0">
           <img
             src="./images/network.jpeg"
@@ -50,7 +50,7 @@ function AboutMeDiv() {
           </p>
         </div>
       </section>
-      <section className="col-11 row g-0 p-0 ease-left">
+      <section className="col-11 row g-0 p-2 ease-left">
         <div className="col-7 m-0 text-right">
           <p>
             Sprinkle on top of that some testing with Jest and Progressive Web
