@@ -61,7 +61,7 @@
 
 @keyframes slide {
   0% {
-    transform: translateX(-500px) translateY(-750px) rotate(-30deg);
+    transform: translateX(-250px) translateY(-750px) rotate(-30deg);
   }
   100% {
     transform: translateX(0px) translateY(0px);
