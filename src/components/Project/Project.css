@@ -13,11 +13,21 @@
 
 .project-card {
   width: 375px;
-  box-shadow: 0px 0px 3px rgb(25, 25, 25, 0.25);
 }
 
 .project-card:hover {
-  box-shadow: 0px 0px 25px rgb(25, 25, 25, 0.25);
   margin: -10px;
   width: 385px;
+}
+
+.rd-15 {
+border-radius: 15px;
+}
+
+.rd-15-top {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.rd-15-bottom {
+  border-radius: 0px 0px 15px 15px;
 }

@@ -42,6 +42,10 @@ footer {
   animation: typing .5s steps(120, end), blink-caret 0.75s step-end infinite;
 }
 
+.round {
+  border-radius: 30px;
+}
+
 @keyframes typing {
   from {
     width: 0;
