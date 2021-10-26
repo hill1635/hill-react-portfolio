@@ -3,46 +3,45 @@ import "./AboutMeDiv.css";
 
 function AboutMeDiv() {
   return (
-    <div className="aboutMe drop col-lg-8 col-md-10 col-sm-11 col-xs-12 text-center bg-light shadow-lg mx-auto mt-5 p-5 round">
-      <section className="col-11 row m-2 ease-right">
-        <div className="col-sm-12 col-md-5 m-0">
+    <div className="aboutMe drop col-lg-8 col-md-10 col-xs-12 text-center bg-light shadow-lg mx-auto mt-5 p-5 round">
+      <section className="col-11 row mx-auto my-5 ease-right p-0">
+        <div className="col-12 m-0">
           <img
-            src="./images/me.jpeg"
+            src="./images/certificate.png"
             className="bio-pics rounded-circle shadow"
           ></img>
         </div>
-        <div className="col-sm-12 col-md-7 m-0">
-          <p className="py-5 text-center">
-            I am a Full-Stack Developer and recent graduate from the University
-            of Utah Coding Bootcamp with eight months of experience.
+        <div className="col-12 m-0">
+          <p className="py-4 text-center">
+            University of Utah Coding Bootcamp Graduate with a certificate in Full-Stack Development.
           </p>
         </div>
       </section>
-      <section className="col-11 row m-2 ease-left">
-        <div className="col-sm-12 col-md-7 m-0">
-          <p className="py-5 text-center">
+      <section className="col-9 col-sm-11 row mx-auto my-5 ease-left p-0">
+      <div className="col-12 m-0">
+          <img
+            src="./images/frontend.png"
+            className="bio-pics rounded-circle shadow"
+          ></img>
+        </div>
+        <div className="col-12 m-0">
+          <p className="py-4 text-center">
             My front-end wheelhouse is in HTML, CSS, and Javascript. My CSS
             background expands to the Bootstrap framework. Javscript libraries
             learned include jQuery and React as well as server-side technologies
             such as AJAX and APIs.
           </p>
         </div>
-        <div className="col-sm-12 col-md-5 m-0">
-          <img
-            src="./images/frontend.png"
-            className="bio-pics rounded-circle shadow"
-          ></img>
-        </div>
       </section>
-      <section className="col-11 row m-2 ease-right">
-        <div className="col-sm-12 col-md-5 m-0">
+      <section className="col-9 col-sm-11 row mx-auto my-5 ease-right p-0">
+        <div className="col-12 m-0">
           <img
             src="./images/network.jpeg"
             className="bio-pics rounded-circle shadow"
           ></img>
         </div>
-        <div className="col-sm-12 col-md-7 m-0">
-          <p className="py-5 text-center">
+        <div className="col-12 m-0">
+          <p className="py-4 text-center">
             On the back-end, I am knowledgeable in the Node.js environment and
             server creation with Node, Express and HTTP. Database construction
             with MySQL, MongoDB, and IndexedDB using ORM and MVC techniques with
@@ -50,21 +49,21 @@ function AboutMeDiv() {
           </p>
         </div>
       </section>
-      <section className="col-11 row m-2 ease-left">
-        <div className="col-sm-12 col-md-7 m-0">
-          <p className="py-5 text-center">
-            Sprinkle on top of that some testing with Jest and Progressive Web
-            Apps with Webpack and that sums up the past five months for me!
-          </p>
-        </div>
-        <div className="col-sm-12 col-md-5 m-0">
+      <section className="col-9 col-sm-11 row mx-auto my-5 ease-left p-0">
+      <div className="col-12 m-0">
           <img
             src="./images/other.png"
             className="bio-pics rounded-circle shadow"
           ></img>
         </div>
+        <div className="col-12 m-0">
+          <p className="py-4 text-center">
+            Sprinkle on top of that some testing with Jest and Progressive Web
+            Apps with Webpack and that sums up the past five months for me!
+          </p>
+        </div>
       </section>
-      <section className="col-8 row pt-2 mx-auto">
+      <section className="col-8 row pt-2 mx-auto p-0">
         <p className="text-center">
           If you would like to learn more about me, check out my{" "}
           <a

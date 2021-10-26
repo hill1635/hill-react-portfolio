@@ -4,7 +4,6 @@
 }
 
 section {
-  height: 250px;
   display: block;
 }
 
@@ -32,7 +31,6 @@ section {
 }
 
 .ease-right {
-  float: left;
   animation-name: ease-right;
   animation-timing-function: ease;
   animation-duration: 1s;
@@ -50,7 +48,6 @@ section {
 }
 
 .ease-left {
-  float: right;
   animation-name: ease-left;
   animation-timing-function: ease;
   animation-duration: 1s;
