@@ -16,7 +16,7 @@ function Bio() {
   });
 
   return (
-    <main className="bio col-9">
+    <main className="bio col-12">
       <IntroDiv></IntroDiv>
       <AboutMeDiv></AboutMeDiv>
     </main>
