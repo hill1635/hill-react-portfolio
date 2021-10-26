@@ -7,27 +7,6 @@ section {
   height: 250px;
 }
 
-.hello {
-  margin: 50px auto 100px auto;
-}
-
-.intro {
-  font-size: 24px;
-}
-
-.next {
-  cursor: pointer;
-}
-
-.prev {
-  cursor: pointer;
-}
-
-.arrow {
-  font-size: 36px;
-  margin: 100px 10px 0px 10px;
-}
-
 .background {
   text-align: center;
   display: none;
