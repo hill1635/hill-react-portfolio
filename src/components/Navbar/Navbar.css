@@ -1,12 +1,12 @@
 .name {
-  font-size: 50px;
-  margin-top: 60px;
+  font-size: 36px;
   padding: 0px 5px 0px 5px;
   font-family: "Sanchez", serif;
   color: rgb(25, 25, 25, .92);
   background-color: #FBFBF9;
   border: solid;
   border-color: rgb(25, 25, 25, .92);
+  border-radius: 15px;
   letter-spacing: 0.05em;
   cursor: default;
   text-shadow: 0.75px 0.75px 0px rgba(25, 25, 25, 0.5);
@@ -18,15 +18,10 @@
 
 .initial-h {
   display: block;
-  margin: -43px 0px 0px 9px;
-}
-
-.nav-link {
-  padding: -5px;
+  margin: -31px 0px 0px 9px;
 }
 
 .links {
-  margin-top: 5px;
   font-family: Sanchez, serif;
   font-size: 20px;
 }

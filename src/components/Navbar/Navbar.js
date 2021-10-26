@@ -17,8 +17,8 @@ function Navbar() {
   });
 
   return (
-      <nav className="navbar navbar-expand-lg col-12 pt-2 pb-1 mb-5">
-        <span className="name position-fixed rounded shadow-sm">
+      <nav className="navbar navbar-expand-lg col-12 pt-4 pb-2 mb-5">
+        <span className="name position-fixed shadow-sm mt-2">
           <span className="col-12 initial-t">T</span>
           <span className="col-12 initial-h">H</span>
         </span>
@@ -43,14 +43,14 @@ function Navbar() {
               <div className="underline u-about"></div>
               </div>
               </Link>
-              <Link to="/portfolio" className="nav-link mr-5">
+              <Link to="/portfolio" className="nav-link mx-5">
               <i className="fas fa-angle-right mr-1 p-icon"></i>
               <div className="d-inline-block">
               <span className="link-text">Portfolio</span>
               <div className="underline u-portfolio"></div>
               </div>
               </Link>
-              <Link to="/contact" className="nav-link">
+              <Link to="/contact" className="nav-link ml-5">
                 <i className="fas fa-angle-right mr-1 c-icon"></i>
                 <div className="d-inline-block">
                 <span className="link-text">Contact</span>
