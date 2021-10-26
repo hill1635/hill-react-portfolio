@@ -31,36 +31,6 @@ footer {
   background-color: rgba(112, 128, 144, 0.10);
 }
 
-.header {
-  display: inline-block;
-  font-size: 60px;
-  font-family: "Sanchez", serif;
-  overflow: hidden;
-  border-right: solid;
-  white-space: nowrap;
-  margin: 0px;
-  animation: typing .5s steps(120, end), blink-caret 0.75s step-end infinite;
-}
-
 .round {
   border-radius: 30px;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 30%;
-  }
-}
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: black;
-  }
 }
