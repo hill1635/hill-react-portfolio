@@ -3,7 +3,7 @@ import "./AboutMeDiv.css";
 
 function AboutMeDiv() {
   return (
-    <div className="content background col-11 mx-auto">
+    <div className="col-lg-10 col-md-11 col-sm-12 mx-auto text-center bg-light shadow-lg background p-5 mt-5">
       <section className="col-11 row g-0 p-0 ease-right">
         <div className="col-5 m-0">
           <img
