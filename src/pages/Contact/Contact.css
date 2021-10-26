@@ -3,14 +3,18 @@
   font-family: "Sanchez", serif;
 }
 
-.contact,
-.card-1,
-.card-2,
-.card-3 {
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px rgb(25, 25, 25, 0.25);
+.contact {
+  border-radius: 30px;
+  background: linear-gradient(
+    145deg,
+    rgb(22, 103, 195),
+    rgb(113, 26, 144),
+    rgb(227, 31, 13),
+    orange
+  );
+  background-color:rgb(25, 25, 25);
   border: solid;
-  border-width: 2px;
+  border-width: 0px;
   width: 700px;
   height: 400px;
   margin: -10px 0px 0px 0px;
@@ -19,37 +23,20 @@
   animation-duration: .4s;
 }
 
-.contact {
-  background: linear-gradient(
-    145deg,
-    rgb(22, 103, 195),
-    rgb(113, 26, 144),
-    rgb(227, 31, 13),
-    orange
-  );
-  border-radius: 5px;
-}
-
 .info {
   background-color: #FBFBF9;
   color: rgb(25, 25, 25);
-  border-radius: 0px 3px 3px 0px;
-  border: solid;
-  border-width: 0px 0px 0px 3px;
-  box-shadow: -1px 1px 5px -3px;
-  text-shadow: 0.75px 0.75px 0px rgba(25, 25, 25, 0.5);
+  border-radius: 0px 30px 30px 0px;
   text-align: right;
 }
 .logo {
   background-color: #FBFBF9;
-  border-radius: 5px 200px 200px 5px;
-  border: solid;
-  border-width: 3px 3px 3px 0px;
-  box-shadow: 5px 0px 7px;
-  margin: 5px 0px;
+  border-radius: 0px 200px 200px 0px;
+  margin: 25px 0px;
 }
 
 .letters {
+  font-family: "Sanchez", serif;
   margin: 45px 0px 0px -20px;
   padding: 0px 0px 0px 25px;
   text-shadow: 0.75px 0.75px 0px rgba(25, 25, 25, 0.5);
@@ -69,8 +56,8 @@
 }
 
 .card-name {
+  font-family: "Sanchez", serif;
   font-size: 40px;
-  text-shadow: 0.75px 0.75px 0px rgba(25, 25, 25, 0.5);
 }
 
 .content {
