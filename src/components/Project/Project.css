@@ -13,6 +13,19 @@
 
 .project-card {
   width: 375px;
+  animation: pop 500ms ease-in-out forwards;
+  transform-origin: center;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .project-card:hover {
@@ -21,7 +34,7 @@
 }
 
 .rd-15 {
-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .rd-15-top {
