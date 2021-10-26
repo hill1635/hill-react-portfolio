@@ -1,8 +1,3 @@
-.stack {
-  margin: 125px 0px 100px 375px;
-  font-family: "Sanchez", serif;
-}
-
 .contact {
   border-radius: 30px;
   background: linear-gradient(
@@ -17,10 +12,9 @@
   border-width: 0px;
   width: 700px;
   height: 400px;
-  margin: -10px 0px 0px 0px;
-  animation-name: drop;
+  animation-name: slide;
   animation-timing-function: ease;
-  animation-duration: .4s;
+  animation-duration: 1250ms;
 }
 
 .info {
@@ -65,9 +59,9 @@
   font-size: 18px;
 }
 
-@keyframes drop {
+@keyframes slide {
   0% {
-    transform: translateX(-10px) translateY(-10px);
+    transform: translateX(-500px) translateY(-750px) rotate(-30deg);
   }
   100% {
     transform: translateX(0px) translateY(0px);

@@ -3,7 +3,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <main className="contact mx-auto mt-5 row bg-light shadow">
+    <main className="contact container-flex col-sm-12 col-md-7 mx-auto mt-5 row bg-light shadow p-0 mh-70 mw-40">
       <div className="logo col-4">
         <div className="letters">
           <span className="col-12 letter-t">T</span>
