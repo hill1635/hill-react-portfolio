@@ -65,16 +65,43 @@
   color: rgb(227, 31, 13, 0.95);
 }
 
-button {
-  background: linear-gradient(
-    145deg,
-    rgb(22, 103, 195, 0.95),
-    rgb(113, 26, 144, 0.95),
-    rgb(227, 31, 13, 0.95)
-  );
+.menu-btn {
+  width: 65px;
+  height: 65px;
 }
 
-.menu-btn {
-  width: 25px;
-  height: 25px;
+.homeBtn {
+  color: rgb(22, 103, 195, 0.95);
+  border: solid;
+  border-color: rgb(22, 103, 195, 0.95);
+}
+
+.homeBtn:hover {
+color: white;
+border-color: rgb(22, 103, 195, 0.95);
+background-color: rgb(22, 103, 195, 0.95);
+}
+
+.portfolioBtn {
+color: rgb(113, 26, 144, 0.95);
+border: solid;
+border-color: rgb(113, 26, 144, 0.95);
+}
+
+.portfolioBtn:hover {
+  color: white;
+  border-color: rgb(113, 26, 144, 0.95);
+  background-color: rgb(113, 26, 144, 0.95);
+}
+
+.contactBtn {
+  color: rgb(227, 31, 13, 0.95);
+  border: solid;
+  border-color: rgb(227, 31, 13, 0.95);
+}
+
+.contactBtn:hover {
+  color: white;
+  border-color: rgb(227, 31, 13, 0.95);
+  background-color: rgb(227, 31, 13, 0.95);
 }
