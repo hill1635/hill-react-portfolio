@@ -6,10 +6,10 @@ import "./Bio.css";
 function Bio() {
   useEffect(() => {
     var next = document.querySelector(".next");
-    var background = document.querySelector(".background");
+    var aboutMe = document.querySelector(".aboutMe");
 
     next.addEventListener("click", function () {
-      background.style.display = "block";
+      aboutMe.style.display = "block";
       window.scroll({ top: 525, behavior: "smooth" });
     });
 
