@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import IntroDiv from "./IntroDiv/IntroDiv.js";
 import "./Bio.css";
 
 function Bio() {
@@ -15,16 +16,7 @@ function Bio() {
 
   return (
     <main className="bio col-9 pt-2">
-      <div className="hello col-lg-8 col-md-10 col-sm-12 mx-auto text-center">
-        <h1 className="header">'Hello World!'</h1>
-        <hr className="solid shadow-md"></hr>
-        <p className="intro">My name is Tucker and I'm a full-stack developer.</p>
-        <span className="next">
-        <i class="fas fa-chevron-down arrow"></i>
-        <i class="fas fa-chevron-down arrow"></i>
-        <i class="fas fa-chevron-down arrow"></i>
-        </span>
-      </div>
+      <IntroDiv></IntroDiv>
       <div className="content background col-11 mx-auto">
         <section className="col-11 row g-0 p-0 ease-right">
           <div className="col-5 m-0">
