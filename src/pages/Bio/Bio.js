@@ -10,13 +10,13 @@ function Bio() {
 
     next.addEventListener("click", function () {
       aboutMe.style.display = "block";
-      window.scroll({ top: 525, behavior: "smooth" });
+      window.scroll({ top: 765, behavior: "smooth" });
     });
 
   });
 
   return (
-    <main className="bio col-9 pt-2">
+    <main className="bio col-9">
       <IntroDiv></IntroDiv>
       <AboutMeDiv></AboutMeDiv>
     </main>

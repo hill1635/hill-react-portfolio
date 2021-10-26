@@ -11,16 +11,16 @@ function AboutMeDiv() {
             className="bio-pics rounded-circle shadow"
           ></img>
         </div>
-        <div className="col-7 m-0 text-left">
-          <p>
+        <div className="col-7 m-0">
+          <p className="py-5 text-center">
             I am a Full-Stack Developer and recent graduate from the University
             of Utah Coding Bootcamp with eight months of experience.
           </p>
         </div>
       </section>
       <section className="col-11 row g-0 p-2 ease-left">
-        <div className="col-7 m-0 text-right">
-          <p>
+        <div className="col-7 m-0">
+          <p className="py-5 text-center">
             My front-end wheelhouse is in HTML, CSS, and Javascript. My CSS
             background expands to the Bootstrap framework. Javscript libraries
             learned include jQuery and React as well as server-side technologies
@@ -41,8 +41,8 @@ function AboutMeDiv() {
             className="bio-pics rounded-circle shadow"
           ></img>
         </div>
-        <div className="col-7 m-0 text-left">
-          <p>
+        <div className="col-7 m-0">
+          <p className="py-5 text-center">
             On the back-end, I am knowledgeable in the Node.js environment and
             server creation with Node, Express and HTTP. Database construction
             with MySQL, MongoDB, and IndexedDB using ORM and MVC techniques with
@@ -51,8 +51,8 @@ function AboutMeDiv() {
         </div>
       </section>
       <section className="col-11 row g-0 p-2 ease-left">
-        <div className="col-7 m-0 text-right">
-          <p>
+        <div className="col-7 m-0">
+          <p className="py-5 text-center">
             Sprinkle on top of that some testing with Jest and Progressive Web
             Apps with Webpack and that sums up the past five months for me!
           </p>
@@ -64,8 +64,8 @@ function AboutMeDiv() {
           ></img>
         </div>
       </section>
-      <section className="card col-11 mx-auto bg-transparent border-0">
-        <p>
+      <section className="col-8 row g-0 pt-2 mx-auto">
+        <p className="text-center">
           If you would like to learn more about me, check out my{" "}
           <a
             href="https://drive.google.com/file/d/11tDvnpqogtIGNSmkWVSz8V4KxkUJ0dKB/view?usp=sharing"
