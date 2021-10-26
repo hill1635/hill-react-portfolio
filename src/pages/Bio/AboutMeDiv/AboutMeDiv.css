@@ -1,45 +1,45 @@
 .bio-pics {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
+}
+
+section {
+  height: 250px;
+}
+
+.background {
+  text-align: center;
+  display: none;
+}
+
+.ease-right {
+  float: left;
+  animation-name: ease-right;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+}
+
+@keyframes ease-right {
+  0% {
+    transform: translateX(-50px);
   }
-  
-  section {
-    height: 250px;
+  100% {
+    transform: translateX(0);
   }
-  
-  .background {
-    text-align: center;
-    display: none;
+}
+
+.ease-left {
+  float: right;
+  animation-name: ease-left;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+}
+
+@keyframes ease-left {
+  0% {
+    transform: translateX(50px);
   }
-  
-  .ease-right {
-    float: left;
-    animation-name: ease-right;
-    animation-timing-function: ease;
-    animation-duration: 2s;
+  100% {
+    transform: translateX(0);
   }
-  
-  @keyframes ease-right {
-    0% {
-      transform: translateX(-50px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  
-  .ease-left {
-    float: right;
-    animation-name: ease-left;
-    animation-timing-function: ease;
-    animation-duration: 2s;
-  }
-  
-  @keyframes ease-left {
-    0% {
-      transform: translateX(50px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+}
