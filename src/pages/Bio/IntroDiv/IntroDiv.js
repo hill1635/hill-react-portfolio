@@ -7,7 +7,7 @@ function IntroDiv() {
       <h1 className="helloText">'Hello World!'</h1>
       <hr className="solid shadow-md"></hr>
       <p className="mt-5 mb-4 intro">My name is Tucker and I'm a full-stack developer.</p>
-      <img src="./images/me.jpg" className="bio-pics rounded-circle my-4 shadow intro"></img>
+      <img src="./images/me.jpeg" className="bio-pics rounded-circle my-4 shadow intro"></img>
       <span className="next mt-4 d-block">
         <p className="intro">Learn more.</p>
         <i class="fas fa-chevron-down arrow"></i>

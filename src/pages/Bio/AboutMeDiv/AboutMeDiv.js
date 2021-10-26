@@ -7,7 +7,7 @@ function AboutMeDiv() {
       <section className="col-11 row m-2 ease-right">
         <div className="col-sm-12 col-md-5 m-0">
           <img
-            src="./images/me.jpg"
+            src="./images/me.jpeg"
             className="bio-pics rounded-circle shadow"
           ></img>
         </div>
