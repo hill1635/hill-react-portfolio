@@ -3,24 +3,12 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const scrollLength = 525;
-  var opacity = "";
-
-  window.addEventListener("scroll", () => {
-    const currentPosition = window.pageYOffset;
-    if (currentPosition <= scrollLength) {
-      opacity = 1 - currentPosition / scrollLength;
-    } else {
-      opacity = 0;
-    }
-    document.querySelector(".name").style.opacity = opacity;
-  });
-
   return (
-    <nav className="navbar navbar-expand-md col-12 pt-4 pb-2 mb-5">
-      <span className="name position-fixed shadow-sm mt-2">
-        <span className="col-12 initial-t">T</span>
-        <span className="col-12 initial-h">H</span>
+    <nav className="navbar navbar-expand-md col-12 mb-4">
+      <span className="name shadow-sm py-2 px-3 shadow">
+        <span className="first col-12 d-block text-center m-0 p-0">TUCKER</span>
+        <hr className="col-7 my-0 mx-auto divider"></hr>
+        <span className="last col-12 d-block text-center m-0 p-0">HILL</span>
       </span>
       <div className="container container-fluid col-6">
         <Link to="/">
