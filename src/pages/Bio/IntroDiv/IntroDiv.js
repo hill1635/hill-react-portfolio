@@ -3,24 +3,24 @@ import "./IntroDiv.css";
 
 function IntroDiv() {
   return (
-    <div className="row col-xs-12 col-md-10 col-lg-9 mt-5 mx-auto">
+    <div className="row col-xs-12 col-md-10 col-lg-8 mt-5 mx-auto">
       <div className="bg-intro col-12 mx-auto shadow-lg p-0">
         <div className="text-center">
           <div className="hello bg-light p-3 mb-5 shadow-lg">
             <h1 className="helloText bg-light">'Hello World!'</h1>
           </div>
           <div className="clearfix">
-          <div className="biopic bg-transparent d-inline-block col-8 float-left">
-            <img
-              src="./images/me.jpeg"
-              className="rounded-circle shadow-lg"
-            ></img>
-          </div>
-          <div className="intro bg-light d-inline-block shadow-lg col-6 float-right">
-            <p className="py-5 px-4">
-              My name is Tucker and I'm a full-stack developer.
-            </p>
-          </div>
+            <div className="biopic bg-light d-inline-block col-6 float-left p-0">
+              <img
+                src="./images/me.jpeg"
+                className="rounded-circle shadow-lg m-0 w-100"
+              ></img>
+            </div>
+            <div className="intro bg-light d-inline-block shadow-lg col-6 float-right">
+              <p className="py-5 px-4">
+                My name is Tucker and I'm a full-stack developer.
+              </p>
+            </div>
           </div>
           <div className="learnMore bg-light w-25">
             <span className="next mt-4 d-block">
