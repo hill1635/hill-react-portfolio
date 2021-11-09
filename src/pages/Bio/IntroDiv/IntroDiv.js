@@ -3,7 +3,7 @@ import "./IntroDiv.css";
 
 function IntroDiv() {
   return (
-    <div className="row col-xs-12 col-sm-7 mt-5 mx-auto">
+    <div className="row col-xs-12 col-md-10 col-lg-9 mt-5 mx-auto">
       <div className="bg-intro col-12 mx-auto shadow-lg p-0">
         <div className="text-center">
           <div className="hello bg-light p-3 mb-5 shadow-lg">
@@ -17,7 +17,7 @@ function IntroDiv() {
             ></img>
           </div>
           <div className="intro bg-light d-inline-block shadow-lg col-6 float-right">
-            <p>
+            <p className="py-5 px-4">
               My name is Tucker and I'm a full-stack developer.
             </p>
           </div>
