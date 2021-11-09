@@ -4,7 +4,7 @@ import "./IntroDiv.css";
 function IntroDiv() {
   return (
     <div className="row col-sm-12 col-lg-9 mt-5 mx-auto">
-      <div className="background col-12 mx-auto shadow-lg p-0">
+      <div className="bg-intro col-12 mx-auto shadow-lg p-0">
         <div className="hello p-5 text-center bg-light shadow-lg">
           <h1 className="helloText">'Hello World!'</h1>
           <hr className="solid shadow-md"></hr>

@@ -7,13 +7,17 @@ section {
   display: block;
 }
 
+.bg-about {
+  background-color: rgb(113, 26, 144, 0.95);
+  margin-top: 50px;
+}
+
 .aboutMe {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  perspective: 1000px;
   display: none;
+}
+
+.sections {
+  margin: -20px 20px 20px -20px;
 }
 
 .drop {
