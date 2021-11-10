@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import IntroDiv from "./IntroDiv/IntroDiv.js";
-import AboutMeDiv from "./AboutMeDiv/AboutMeDiv.js";
-import "./Bio.css";
+import IntroDiv from "./IntroDiv/IntroDiv.js.js";
+import AboutMeDiv from "./AboutMeDiv/AboutMeDiv.js.js";
+import "./About.css";
 
 function About() {
   // useEffect(() => {
