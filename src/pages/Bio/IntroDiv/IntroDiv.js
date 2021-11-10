@@ -16,14 +16,14 @@ function IntroDiv() {
                 className="rounded-circle shadow-lg m-0 w-100"
               ></img>
             </div>
-            <div className="intro bg-light d-inline-block shadow-lg col-6 float-right">
+            <div className="intro bg-light d-inline-block shadow-lg col-6 float-right mt-5">
               <p className="py-5 px-4">
                 My name is Tucker and I'm a full-stack developer.
               </p>
             </div>
           </div>
           <div className="learnMore bg-light w-25">
-            <span className="next mt-4 d-block">
+            <span className="next d-block">
               <p className="intro">Learn more.</p>
               <i class="fas fa-chevron-down arrow"></i>
               <i class="fas fa-chevron-down arrow"></i>
