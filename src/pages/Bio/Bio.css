@@ -1,0 +1,66 @@
+.bio-pics {
+    height: 200px;
+    width: 200px;
+  }
+  
+  section {
+    display: block;
+  }
+  
+  .bg-about {
+    background-color: rgb(113, 26, 144, 0.95);
+    margin-top: 50px;
+  }
+  
+  .sections {
+    margin: -20px 20px 20px -20px;
+  }
+  
+  .drop {
+    animation: dropDown 250ms ease-in-out forwards;
+    transform-origin: top center;
+  }
+  
+  @keyframes dropDown {
+    0% {
+      transform: scaleY(0);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  
+  .ease-right {
+    animation-name: ease-right;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+  }
+  
+  @keyframes ease-right {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .ease-left {
+    animation-name: ease-left;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+  }
+  
+  @keyframes ease-left {
+    0% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
