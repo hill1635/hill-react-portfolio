@@ -1,41 +1,19 @@
 footer {
-  font-family: "Sanchez", serif;
-  font-size: 18px;
-  opacity: 98%;
-  background: linear-gradient(
-    15deg,
-    rgb(26, 26, 26),
-    rgb(26, 26, 26, 0.98),
-    rgb(26, 26, 26, 0.99),
-    rgba(26, 26, 26, 0.97),
-    rgb(26, 26, 26, 0.98),
-    rgb(26, 26, 26, 0.96)
-  );
+  margin-top: 125px;
 }
 
 .icon {
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
+  margin: 25px;
 }
 
 .icon-fb {
-  height: 18px;
-  width: 18px;
+  height: 35px;
+  width: 35px;
+  margin: 25px;
 }
 
 .copywrite {
   color: rgb(255, 255, 255);
-}
-
-.footer-border {
-  width: 100%;
-  margin-top: 100px;
-  padding: 2px;
-  background: linear-gradient(
-    to right,
-    rgb(227, 31, 13),
-    orange,
-    yellow
-  );
-  opacity: 85%;
 }
