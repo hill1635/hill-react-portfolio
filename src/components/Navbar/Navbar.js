@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-md col-12 pt-4">
       <Link to="/">
-        <span className="name shadow-sm mt-3 py-2 px-3 shadow-lg rounded position-absolute">
+        <span className="name shadow-sm py-2 px-3 shadow-lg rounded position-absolute">
           <span className="first col-12 d-block text-center m-0 p-0">
             TUCKER
           </span>
