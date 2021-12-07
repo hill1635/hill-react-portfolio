@@ -1,3 +1,8 @@
+@keyframes delay {
+  0% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
 .drop {
   animation: dropDown 250ms ease-in-out forwards;
   transform-origin: top center;
