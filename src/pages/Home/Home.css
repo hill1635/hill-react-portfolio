@@ -17,10 +17,6 @@
     font-weight: 300;
   }
   
-  .fadeIn {
-    animation: fadeIn 2s;
-  }
-  
   .bg-intro {
     background-color: rgb(22, 103, 195, 0.66);
     margin-top: 50px;
@@ -28,18 +24,6 @@
   
   .learnMore {
     margin: 0px auto -50px auto;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    25% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
   }
   
   .next {
