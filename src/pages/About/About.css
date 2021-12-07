@@ -16,20 +16,6 @@
     margin: -20px 20px 20px -20px;
   }
   
-  .drop {
-    animation: dropDown 250ms ease-in-out forwards;
-    transform-origin: top center;
-  }
-  
-  @keyframes dropDown {
-    0% {
-      transform: scaleY(0);
-    }
-    100% {
-      transform: scaleY(1);
-    }
-  }
-  
   .ease-right {
     animation-name: ease-right;
     animation-timing-function: ease;
