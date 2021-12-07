@@ -9,14 +9,14 @@
   
   .biopic {
     margin-left: -50px;
-    animation: ease-right 1s ease, fadeIn 1s;
+    animation: ease-right 1s .5s ease, fadeIn 1s .5s;
   }
   
   .intro {
     margin-right: -25px;
     font-size: 30px;
     font-weight: 300;
-    animation: ease-left 1s ease, fadeIn 1s;
+    animation: ease-left 1s .75s ease, fadeIn 1s .75s;
   }
   
   .bg-intro {
@@ -26,7 +26,7 @@
   
   .learnMore {
     margin: 0px auto -50px auto;
-    animation: fadeIn 1s;
+    animation: fadeIn 1s 1s;
   }
   
   .next {
