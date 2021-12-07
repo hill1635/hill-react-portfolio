@@ -10,19 +10,19 @@ function Home() {
             <h1 className="helloText bg-light">'Hello World!'</h1>
           </div>
           <div className="clearfix">
-            <div className="biopic ease-right fadeIn bg-light d-inline-block col-6 float-left p-0">
+            <div className="biopic bg-light d-inline-block col-6 float-left p-0">
               <img
                 src="./images/me.jpeg"
                 className="rounded-circle shadow-lg m-0 w-100"
               ></img>
             </div>
-            <div className="intro ease-left fadeIn bg-light d-inline-block shadow-lg col-6 float-right mt-5 rounded">
+            <div className="intro bg-light d-inline-block shadow-lg col-6 float-right mt-5 rounded">
               <p className="py-5 px-4">
                 My name is Tucker and I'm a full-stack developer.
               </p>
             </div>
           </div>
-          <div className="learnMore intro fadeIn bg-light w-25 p-1 rounded">
+          <div className="learnMore intro bg-light w-25 p-1 rounded">
             <span className="next">
               <p className="mx-auto">Learn more.</p>
               <i class="fas fa-chevron-down arrow"></i>
