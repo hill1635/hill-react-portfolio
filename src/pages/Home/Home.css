@@ -11,14 +11,14 @@
   
   .biopic {
     margin-left: -50px;
-    animation: delay .25s, ease-right 1s .25s ease, fadeIn 1s .25s;
+    animation: delay .5s, pop 1s .5s;
   }
   
   .intro {
     margin-right: -25px;
     font-size: 30px;
     font-weight: 300;
-    animation: delay .5s, ease-left 1s .5s ease, fadeIn 1s .5s;
+    animation: delay 1s, pop 1s 1s;
   }
   
   .bg-intro {
@@ -28,7 +28,7 @@
   
   .learnMore {
     margin: 0px auto -50px auto;
-    animation: delay .75s, fadeIn 1s .75s;
+    animation: delay 1.5s, pop 1s 1.5s;
   }
   
   .next {
