@@ -23,7 +23,7 @@ function About() {
               className="bio-pics rounded-circle shadow"
             ></img>
           </div>
-          <div className="col-12 m-0">
+          <div className="col-12 m-0 bg-light">
             <p className="py-4 text-center">
               University of Utah Coding Bootcamp Graduate with a certificate in
               Full-Stack Development.
@@ -38,7 +38,7 @@ function About() {
             ></img>
           </div>
           <div className="col-12 m-0">
-            <p className="py-4 text-center">
+            <p className="py-4 text-center bg-light">
               My front-end wheelhouse is in HTML, CSS, and Javascript. My CSS
               background expands to the Bootstrap framework. Javscript libraries
               learned include jQuery and React as well as server-side
@@ -54,7 +54,7 @@ function About() {
             ></img>
           </div>
           <div className="col-12 m-0">
-            <p className="py-4 text-center">
+            <p className="py-4 text-center bg-light">
               On the back-end, I am knowledgeable in the Node.js environment and
               server creation with Node, Express and HTTP. Database construction
               with MySQL, MongoDB, and IndexedDB using ORM and MVC techniques
@@ -69,14 +69,14 @@ function About() {
               className="bio-pics rounded-circle shadow"
             ></img>
           </div>
-          <div className="col-12 m-0">
+          <div className="col-12 m-0 bg-light">
             <p className="py-4 text-center">
               Sprinkle on top of that some testing with Jest and Progressive Web
               Apps with Webpack and that sums up the past five months for me!
             </p>
           </div>
         </section>
-        <section className="col-8 row pt-2 mx-auto p-0">
+        <section className="col-8 row pt-2 mx-auto p-0 bg-light">
           <p className="text-center">
             If you would like to learn more about me, check out my{" "}
             <a
