@@ -14,7 +14,7 @@ function About() {
   // });
 
   return (
-    <main className="aboutMe col-sm-12 col-lg-9 mt-5 mx-auto">
+    <main className="aboutMe col-xs-12 col-md-10 col-lg-8 mt-5 mx-auto">
       <div className="bg-about row col-12 mx-auto shadow-lg p-0 rounded">
         <section className="col-11 row mx-auto my-5 ease-right p-0">
           <div className="col-5 m-0">
