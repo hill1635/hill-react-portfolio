@@ -30,7 +30,7 @@ function About() {
             </p>
           </div>
         </section>
-        <section className="col-9 col-sm-11 row mx-auto my-5 ease-left p-0">
+        <section className="col-11 row mx-auto my-5 ease-left p-0">
           <div className="col-md-5 col-sm-12 m-0">
             <img
               src="./images/frontend.png"
@@ -46,7 +46,7 @@ function About() {
             </p>
           </div>
         </section>
-        <section className="col-9 col-sm-11 row mx-auto my-5 ease-right p-0">
+        <section className="col-11 row mx-auto my-5 ease-right p-0">
           <div className="col-md-5 col-sm-12 m-0">
             <img
               src="./images/network.jpeg"
@@ -62,7 +62,7 @@ function About() {
             </p>
           </div>
         </section>
-        <section className="col-9 col-sm-11 row mx-auto my-5 ease-left p-0">
+        <section className="col-11 row mx-auto my-5 ease-left p-0">
           <div className="col-md-5 col-sm-12 m-0">
             <img
               src="./images/other.png"
