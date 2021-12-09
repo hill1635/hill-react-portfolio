@@ -20,7 +20,7 @@ function About() {
           <div className="col-5 m-0">
             <img
               src="./images/certificate.png"
-              className="bio-pics rounded-circle shadow"
+              className="bio-pics rounded-circle shadow img-fluid"
             ></img>
           </div>
           <div className="col-6 m-0 bg-light rounded">
@@ -34,7 +34,7 @@ function About() {
           <div className="col-5 m-0">
             <img
               src="./images/frontend.png"
-              className="bio-pics rounded-circle shadow"
+              className="bio-pics rounded-circle shadow img-fluid"
             ></img>
           </div>
           <div className="col-6 m-0">
@@ -50,7 +50,7 @@ function About() {
           <div className="col-5 m-0">
             <img
               src="./images/network.jpeg"
-              className="bio-pics rounded-circle shadow"
+              className="bio-pics rounded-circle shadow img-fluid"
             ></img>
           </div>
           <div className="col-6 m-0">
@@ -66,7 +66,7 @@ function About() {
           <div className="col-5 m-0">
             <img
               src="./images/other.png"
-              className="bio-pics rounded-circle shadow"
+              className="bio-pics rounded-circle shadow img-fluid"
             ></img>
           </div>
           <div className="col-6 m-0 bg-light rounded">
