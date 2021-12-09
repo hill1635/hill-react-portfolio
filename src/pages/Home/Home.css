@@ -27,6 +27,7 @@
   }
   
   .learnMore {
+    font-family: "Sanchez", serif;
     margin: 0px auto -50px auto;
     animation: delay 1.5s, pop 1s 1.5s;
   }

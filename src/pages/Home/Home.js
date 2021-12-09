@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 function Home() {
@@ -23,12 +24,11 @@ function Home() {
             </div>
           </div>
           <div className="learnMore intro bg-light w-25 p-1 rounded">
+          <Link to="/about">
             <span className="next">
               <p className="mx-auto">Learn more.</p>
-              <i class="fas fa-chevron-down arrow"></i>
-              <i class="fas fa-chevron-down arrow"></i>
-              <i class="fas fa-chevron-down arrow"></i>
             </span>
+          </Link>
           </div>
         </div>
       </div>
