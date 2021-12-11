@@ -20,7 +20,7 @@ function About() {
           <h1 className="typedText bg-light">Tucker Hill</h1>
         </div>
         <section className="col-11 clearfix mx-auto my-4 p-0">
-          <div className="picDiv col-5 float-right p-0 rounded">
+          <div className="picDiv col-7 col-md-6 col-lg-5 float-right p-0 rounded">
             <img src="./images/me.jpeg" className="profilePic float-right p-4 rounded shadow m-0 w-100 bg-light"></img>
           </div>
           <div className="text-wrap bg-light rounded p-4">
