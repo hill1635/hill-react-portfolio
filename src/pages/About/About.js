@@ -20,14 +20,19 @@ function About() {
           <h1 className="typedText bg-light">Tucker Hill</h1>
         </div>
         <section className="col-11 bg-light rounded shadow-lg mx-auto my-4 p-4">
-          <p><strong>From: </strong> Norway, ME</p>
-          <p><strong>Current: </strong> Cottonwood Heights, UT</p>
-          <p><strong>Nickname: </strong> Tuck</p>
-          <p><strong>Aliases: </strong>Trevor, Tyler, Hunter, Trucker (it's easy to mix up my name, apparently)</p>
-          <p><strong>Hobbies: </strong>Hiking, Skiing, Traveling, Playing Guitar, Video Games, Cooking (when I feel like it)</p>
-          <p><strong>Education: </strong> B.A. in Psychology and Sociology, University of Vermont</p>
-          <p><strong>Certifications: </strong>Full-Stack Development, University of Utah Coding Bootcamp</p>
-          <p><strong>Languages: </strong>JavaScript, HTML, French (un petit peu), Italian (two semesters in college), Sarcasm</p>
+          <div>
+            <p><strong>From: </strong> Norway, ME</p>
+            <p><strong>Current: </strong> Cottonwood Heights, UT</p>
+            <p><strong>Nickname: </strong> Tuck</p>
+            <p><strong>Aliases: </strong>Trevor, Tyler, Hunter, Trucker (it's easy to mix up my name, apparently)</p>
+            <p><strong>Hobbies: </strong>Hiking, Skiing, Traveling, Playing Guitar, Video Games, Cooking (when I feel like it)</p>
+            <p><strong>Education: </strong> B.A. in Psychology and Sociology, University of Vermont</p>
+            <p><strong>Certifications: </strong>Full-Stack Development, University of Utah Coding Bootcamp</p>
+            <p><strong>Languages: </strong>JavaScript, HTML, French (un petit peu), Italian (two semesters in college), Sarcasm</p>
+          </div>
+          <div>
+            <img src="./images/me.jpeg" className="img-thumbnail p-4 rounded shadow m-0"></img>
+          </div>
         </section>
         <section className="col-11 bg-light rounded shadow-lg mx-auto my-4 p-4">
           <p><strong>Background: </strong> MERN stack (mostly)</p>
