@@ -7,10 +7,7 @@ function Footer() {
       <a target="_blank" href="https://www.facebook.com/tucker.hill.75/">
         <img src="./icons/facebook.svg" className="icon-fb rounded"></img>
       </a>
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/tucker-hill-5254b979/"
-      >
+      <a target="_blank" href="https://www.linkedin.com/in/tucker-hill-5254b979/">
         <img src="./icons/linkedin.svg" className="icon rounded"></img>
       </a>
       <a target="_blank" href="mailto:hill1635@gmail.com">
