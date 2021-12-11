@@ -8,7 +8,7 @@ function Home() {
       <div className="bg-intro col-12 mx-auto shadow-lg p-0 rounded">
         <div className="text-center">
           <div className="hello bg-light p-3 mb-5 shadow-lg rounded">
-            <h1 className="helloText bg-light">'Hello World!'</h1>
+            <h1 className="typedText bg-light">'Hello World!'</h1>
           </div>
           <div className="clearfix">
             <div className="biopic bg-light d-inline-block col-6 float-left p-0">
