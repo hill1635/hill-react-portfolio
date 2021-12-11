@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-md col-12 pt-4">
-      <Link to="/">
+      <a href="/">
         <span className="name shadow-sm py-2 px-3 shadow-lg rounded position-absolute">
           <span className="first col-12 d-block text-center m-0 p-0">
             TUCKER
@@ -13,9 +13,9 @@ function Navbar() {
           <hr className="col-7 my-0 mx-auto divider"></hr>
           <span className="last col-12 d-block text-center m-0 p-0">HILL</span>
         </span>
-      </Link>
+      </a>
       <div className="container container-fluid col-6">
-        <Link to="/about">
+        <a href="/about">
           <button
             className="navbar-toggler menu-btn rounded-circle homeBtn"
             type="button"
@@ -27,8 +27,8 @@ function Navbar() {
           >
             <i class="fas fa-home"></i>
           </button>
-        </Link>
-        <Link to="/portfolio">
+        </a>
+        <a href="/portfolio">
           <button
             className="navbar-toggler rounded-circle menu-btn portfolioBtn"
             type="button"
@@ -40,8 +40,8 @@ function Navbar() {
           >
             <i class="fas fa-book-open"></i>
           </button>
-        </Link>
-        <Link to="/contact">
+        </a>
+        <a href="/contact">
           <button
             className="navbar-toggler rounded-circle menu-btn contactBtn text-center"
             type="button"
@@ -53,27 +53,21 @@ function Navbar() {
           >
             <i class="fas fa-info-circle"></i>
           </button>
-        </Link>
+        </a>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mx-auto">
-            <Link
-              to="/about"
-              className="nav-link links mr-lg-5 mr-md-4 py-2 px-3 bg-light shadow rounded"
-            >
+            <a href="/about" className="nav-link links mr-lg-5 mr-md-4 py-2 px-3 bg-light shadow rounded">
               <div className="d-inline-block">
                 <span className="link-text">About</span>
                 <div className="underline u-about"></div>
               </div>
-            </Link>
-            <Link
-              to="/portfolio"
-              className="nav-link links mx-lg-5 mx-md-4 py-2 px-3 bg-light shadow rounded"
-            >
+            </a>
+            <a href="/portfolio" className="nav-link links mx-lg-5 mx-md-4 py-2 px-3 bg-light shadow rounded">
               <div className="d-inline-block">
                 <span className="link-text">Portfolio</span>
                 <div className="underline u-portfolio"></div>
               </div>
-            </Link>
+            </a>
             <div className="dropdown links mx-lg-5 mx-md-4 py-2 px-3 bg-light shadow rounded">
               <div className="d-inline-block">
                 <span className="links" data-bs-toggle="dropdown" aria-expanded="false">Contact</span>
