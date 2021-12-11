@@ -78,7 +78,7 @@ function Navbar() {
               <div className="d-inline-block">
                 <span className="links" data-bs-toggle="dropdown" aria-expanded="false">Contact</span>
                 <div className="underline u-contact"></div>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <ul className="dropdown-menu list-group list-group-horizontal" aria-labelledby="dropdownMenuButton1">
                   <li>
                     <a target="_blank" href="https://www.facebook.com/tucker.hill.75/">
                       <img src="./icons/facebook.svg" className="icon-fb rounded"></img>
