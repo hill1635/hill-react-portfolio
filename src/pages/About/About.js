@@ -19,7 +19,7 @@ function About() {
         <div className="header bg-light p-3 mb-5 shadow-lg rounded mx-auto">
           <h1 className="typedText bg-light">Tucker Hill</h1>
         </div>
-        <div className="col-11 bg-light rounded shadow-lg mx-auto">
+        <section className="col-11 bg-light rounded shadow-lg mx-auto">
           <p><strong>From: </strong> Norway, ME</p>
           <p><strong>Current: </strong> Cottonwood Heights, UT</p>
           <p><strong>Nickname: </strong> Tuck</p>
@@ -28,6 +28,8 @@ function About() {
           <p><strong>Education: </strong> B.A. in Psychology and Sociology, University of Vermont</p>
           <p><strong>Certifications: </strong>Full-Stack Development, University of Utah Coding Bootcamp</p>
           <p><strong>Languages: </strong>JavaScript, HTML, French (un petit peu), Italian (two semesters in college), Sarcasm</p>
+        </section>
+        <section className="col-11 bg-light rounded shadow-lg mx-auto">
           <p><strong>Background: </strong> MERN stack (mostly)</p>
           {/* Carousel? */}
           <ul>
@@ -60,6 +62,8 @@ function About() {
               {/* More Here. */}
             </li>
           </ul>
+        </section>
+        <section className="col-11 bg-light rounded shadow-lg mx-auto">
           <p><strong>Fun Facts:</strong></p>
           {/* Carousel? */}
           <ul>
@@ -70,7 +74,7 @@ function About() {
             <li>Recent shower thought: Is a single piece of spaghetti called a spaghetto?</li>
             <li>Shower thought follow-up: I Googled it, and it in fact is.  Two semesters of Italian paying off right there.</li>
           </ul>
-        </div>
+        </section>
       </div>
     </main>
   );
