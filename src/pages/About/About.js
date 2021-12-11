@@ -19,8 +19,11 @@ function About() {
         <div className="header bg-light p-3 mb-5 shadow-lg rounded mx-auto">
           <h1 className="typedText bg-light">Tucker Hill</h1>
         </div>
-        <section className="col-11 bg-light rounded shadow-lg mx-auto my-4 p-4">
-          <div>
+        <section className="col-11 clearfix mx-auto my-4 p-0">
+          <div className="col-5 float-right p-0 rounded">
+            <img src="./images/me.jpeg" className="float-right p-4 rounded shadow m-0 w-100 bg-light"></img>
+          </div>
+          <div className="text-wrap bg-light rounded p-4">
             <p><strong>From: </strong> Norway, ME</p>
             <p><strong>Current: </strong> Cottonwood Heights, UT</p>
             <p><strong>Nickname: </strong> Tuck</p>
@@ -29,9 +32,6 @@ function About() {
             <p><strong>Education: </strong> B.A. in Psychology and Sociology, University of Vermont</p>
             <p><strong>Certifications: </strong>Full-Stack Development, University of Utah Coding Bootcamp</p>
             <p><strong>Languages: </strong>JavaScript, HTML, French (un petit peu), Italian (two semesters in college), Sarcasm</p>
-          </div>
-          <div>
-            <img src="./images/me.jpeg" className="img-thumbnail p-4 rounded shadow m-0"></img>
           </div>
         </section>
         <section className="col-11 bg-light rounded shadow-lg mx-auto my-4 p-4">
