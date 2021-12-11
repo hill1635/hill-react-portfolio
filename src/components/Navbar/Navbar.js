@@ -74,15 +74,18 @@ function Navbar() {
                 <div className="underline u-portfolio"></div>
               </div>
             </Link>
-            <Link
-              to="/contact"
-              className="nav-link links ml-lg-5 ml-md-4 py-2 px-3 bg-light shadow rounded"
-            >
+            <div className="dropdown links mx-lg-5 mx-md-4 py-2 px-3 bg-light shadow rounded">
               <div className="d-inline-block">
-                <span className="link-text">Contact</span>
+                <span className="links" data-bs-toggle="dropdown" aria-expanded="false">Contact</span>
                 <div className="underline u-contact"></div>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><Link to="" className="dropdown-item">Facebook</Link></li>
+                  <li><Link to="" className="dropdown-item">LinkedIn</Link></li>
+                  <li><Link to="" className="dropdown-item">Gmail</Link></li>
+                  <li><Link to="" className="dropdown-item">Github</Link></li>
+                </ul>
               </div>
-            </Link>
+            </div>
           </div>
         </div>
       </div>
