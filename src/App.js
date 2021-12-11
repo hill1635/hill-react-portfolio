@@ -5,7 +5,6 @@ import Footer from "./components/Footer/Footer.js";
 import Home from "./pages/Home/Home.js";
 import About from "./pages/About/About.js";
 import Portfolio from "./pages/Portfolio/Portfolio.js";
-import Contact from "./pages/Contact/Contact.js";
 import '@fortawesome/fontawesome-free/js/all.js';
 import '@fortawesome/fontawesome-free/css/all.css';
 import "./App.css";
@@ -19,7 +18,6 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
         <Footer />
       </div>
     </Router>
