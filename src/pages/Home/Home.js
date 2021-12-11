@@ -7,7 +7,7 @@ function Home() {
     <main className="row col-xs-12 col-md-10 col-lg-8 mt-5 mx-auto">
       <div className="bg-intro col-12 mx-auto shadow-lg p-0 rounded">
         <div className="text-center">
-          <div className="hello bg-light p-3 mb-5 shadow-lg rounded">
+          <div className="header bg-light p-3 mb-5 shadow-lg rounded">
             <h1 className="typedText bg-light">'Hello World!'</h1>
           </div>
           <div className="clearfix">
