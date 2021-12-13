@@ -37,10 +37,10 @@ function FunFacts() {
                 semesters of Italian paying off right there.
             </p>
             </div>
-        <button className="directionals carousel-control-prev bg-transparent text-body h-100" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button className="directionals carousel-control-prev bg-transparent text-body h-100 border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <i class="fas fa-chevron-left"></i>
         </button>
-        <button className="directionals carousel-control-next bg-transparent text-body h-100" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button className="directionals carousel-control-next bg-transparent text-body h-100 border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
             <i class="fas fa-chevron-right"></i>
         </button>
         </div>
