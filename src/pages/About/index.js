@@ -1,6 +1,6 @@
 import React from "react";
-import FunFacts from "./FunFacts/FunFacts.js";
-import "./About.css";
+import FunFacts from "./FunFacts";
+import "./style.css";
 
 function About() {
   return (
