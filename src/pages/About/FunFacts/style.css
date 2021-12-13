@@ -1,5 +1,5 @@
 .funFacts {
-  height: 250px;
+  height: 300px;
 }
 
 .header {
@@ -15,6 +15,6 @@
 }
 
 .fact {
-  padding: 45px 50px 0px 50px;
+  padding: 25px 50px 0px 50px;
   font-size: 24px;
 }
