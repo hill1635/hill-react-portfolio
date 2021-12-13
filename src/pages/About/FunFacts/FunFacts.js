@@ -35,11 +35,11 @@ function FunFacts() {
             </p>
             </div>
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <button className="carousel-control-prev bg-transparent text-body h-100" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
         </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <button className="carousel-control-next bg-transparent text-body h-100" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
         </button>
       </div>
     </section>
