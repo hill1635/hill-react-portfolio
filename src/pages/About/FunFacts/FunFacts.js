@@ -5,7 +5,6 @@ function FunFacts() {
     return (
         <section className="col-11 bg-light rounded shadow-lg mx-auto my-4 p-4">
           <p><strong>Fun Facts:</strong></p>
-          {/* Carousel? */}
           <ul>
             <li>Cat and dog person (why choose a side?), but has neither right now unfortunately</li>
             <li>Loves planning trips almost as much as taking them.</li>
