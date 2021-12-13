@@ -3,10 +3,10 @@ import "./FunFacts.css";
 
 function FunFacts() {
   return (
-    <section className="col-11 bg-light rounded shadow-lg mx-auto my-4 p-4">
+    <section className="funFacts text-center col-11 col-sm-7 bg-light rounded shadow-lg mx-auto my-4 p-4">
       <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-        <p><strong>Fun Facts:</strong></p>
-        <div className="carousel-inner">
+        <h3>Fun Facts:</h3>
+        <div className="carousel-inner p-4">
             <div className="carousel-item active">
             <p>
                 Cat and dog person (why choose a side?), but has neither right now
