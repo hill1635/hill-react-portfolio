@@ -2,6 +2,7 @@ import React from "react";
 import BasicInfo from "./BasicInfo";
 import Background from "./Background";
 import FunFacts from "./FunFacts";
+import Resume from "./Resume";
 import "./style.css";
 
 function About() {
@@ -14,6 +15,7 @@ function About() {
         <BasicInfo/>
         <Background/>
         <FunFacts/>
+        <Resume/>
       </div>
     </main>
   );
