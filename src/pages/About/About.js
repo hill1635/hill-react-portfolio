@@ -1,4 +1,5 @@
 import React from "react";
+import FunFacts from "./FunFacts/FunFacts.js";
 import "./About.css";
 
 function About() {
@@ -57,6 +58,7 @@ function About() {
             </li>
           </ul>
         </section>
+        <FunFacts/>
       </div>
     </main>
   );
