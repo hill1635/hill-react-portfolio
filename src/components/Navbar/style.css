@@ -3,28 +3,39 @@ nav {
 }
 
 .name {
-  font-family: "Sanchez", serif;
-  color: rgb(25, 25, 25, 0.92);
   background-color: #fbfbf9;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(25, 25, 25, 0.92);
+  font-family: "Sanchez", serif;
   letter-spacing: 0.05em;
-  cursor: default;
   margin: -40px 0px 0px -5px;
+  padding: 10px 5px 10px 5px;
+  position: absolute;
 }
 
 .divider {
   background-color: rgb(25, 25, 25, 0.92);
+  margin: 0px auto 0px auto;
   padding: .5px;
+  width: 75%;
 }
 
 .first {
+  display: block;
   font-size: 20px;
   font-weight: 900;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 .last {
+  display: block;
   font-weight: 600;
   font-size: 26px;
   letter-spacing: 0.10em;
+  text-align: center;
 }
 
 .links {
