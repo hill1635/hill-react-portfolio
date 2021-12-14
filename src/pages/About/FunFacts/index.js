@@ -4,7 +4,7 @@ import "./style.css";
 function FunFacts() {
   return (
     <section className="funFacts text-center col-11 col-sm-6 bg-light rounded shadow-lg mx-auto p-0 my-4">
-      <div id="carouselExampleIndicators" className="carousel slide h-100 py-4" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" className="carousel slide h-100 py-4">
         <header className="header w-75">
             <h3>Fun Facts:</h3>
             <hr></hr>
