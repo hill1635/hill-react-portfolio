@@ -1,4 +1,5 @@
 import React from "react";
+import Dropdown from "../Dropdown";
 import "./style.css";
 
 function CollapsedNav() {
@@ -31,11 +32,11 @@ function CollapsedNav() {
           </button>
         </a>
         {/* Fix to utilize dropdown. */}
-        <a href="/contact">
+        <span>
           <button
-            className="navbar-toggler rounded-circle menu-btn contactBtn text-center"
+            className="dropdown navbar-toggler rounded-circle menu-btn contactBtn text-center"
             type="button"
-            data-bs-toggle="collapse"
+            data-bs-toggle="dropdown"
             data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
@@ -43,7 +44,8 @@ function CollapsedNav() {
           >
             <i class="fas fa-info-circle"></i>
           </button>
-        </a>
+          <Dropdown/>
+        </span>
         </div>
     );
 }
