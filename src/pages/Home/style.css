@@ -1,35 +1,32 @@
-  .bg-hello {
-    background-color: rgb(22, 103, 195, 0.95);
-  }
-  
   .biopic {
-    margin-left: -50px;
     animation: delay .5s, pop 1s .5s;
+    background: transparent;
+    display: inline-block;
+    float: left;
+    margin-left: -50px;
+    padding: 0px;
   }
   
   .intro {
-    margin-right: -25px;
+    animation: delay 1s, pop 1s 1s;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
     font-size: 30px;
     font-weight: 300;
-    animation: delay 1s, pop 1s 1s;
-  }
-  
-  .bg-intro {
-    background-color: rgb(22, 103, 195, 0.66);
-    margin-top: 50px;
+    margin: 50px -50px 0px 0px;
+    padding: 50px 40px 50px 40px;
   }
   
   .learnMore {
-    font-family: "Sanchez", serif;
-    margin: 0px auto -50px auto;
     animation: delay 1.5s, pop 1s 1.5s;
-  }
-  
-  .next {
+    border-radius: 5px;
     cursor: pointer;
+    display: inline-block;
+    font-family: "Sanchez", serif;
+    font-size: 30px;
+    margin: 25px auto -50px auto;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
   }
-  
-  .arrow {
-    font-size: 36px;
-  }
-  

@@ -31,6 +31,9 @@ footer {
   background-color: rgba(112, 128, 144, 0.10);
 }
 
-.round {
-  border-radius: 30px;
+.bg-main {
+  background-color: rgb(22, 103, 195, 0.66);
+  border-radius: 5px;
+  margin: 50px auto 0px auto;
+  padding: 0px;
 }
