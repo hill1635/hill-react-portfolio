@@ -4,9 +4,7 @@ import "./style.css";
 
 function Home() {
   return (
-    <main className="row col-xs-12 col-md-10 col-lg-8 mt-5 mx-auto">
-      <div className="bg-intro col-12 mx-auto shadow-lg p-0 rounded">
-        <div className="text-center">
+    <main className="bg-intro col-xs-12 col-md-10 col-lg-8 mt-5 p-0 mx-auto rounded text-center">
           <div className="header bg-light p-3 mb-5 shadow-lg rounded">
             <h1 className="typedText bg-light">'Hello World!'</h1>
           </div>
@@ -30,8 +28,6 @@ function Home() {
             </span>
           </Link>
           </div>
-        </div>
-      </div>
     </main>
   );
 }
