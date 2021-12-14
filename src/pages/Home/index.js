@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 function Home() {
@@ -22,11 +21,11 @@ function Home() {
             </div>
           </div>
           <div className="learnMore intro bg-light w-25 p-1 rounded">
-          <Link to="/about">
+          <a href="/about">
             <span className="next">
               <p className="mx-auto">Learn more.</p>
             </span>
-          </Link>
+          </a>
           </div>
     </main>
   );
