@@ -14,6 +14,9 @@ function About() {
         </div>
         <BasicInfo/>
         <Background/>
+        <div className="col-11 mx-auto bg-light rounded p-3 shadow-lg my-4">
+        <img src="http://ghchart.rshah.org/hill1635" alt="GitHub Commit History" className="mx-auto"/>
+        </div>
         <FunFacts/>
         <Resume/>
       </div>
