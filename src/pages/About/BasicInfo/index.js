@@ -3,7 +3,7 @@ import "./style.css";
 
 function BasicInfo() {
   return (
-    <section className="col-11 clearfix mx-auto my-4 p-0">
+    <section className="basicInfo col-11 clearfix mx-auto my-4 p-0">
       <div className="picDiv col-7 col-md-6 col-lg-5 float-right p-0 rounded">
         <img
           src="./images/me.jpeg"

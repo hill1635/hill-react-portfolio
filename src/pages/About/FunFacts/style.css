@@ -1,4 +1,5 @@
 .funFacts {
+  animation: delay 1s, fadeIn 1s 1s, slide 1s 1s ease;
   height: 300px;
 }
 

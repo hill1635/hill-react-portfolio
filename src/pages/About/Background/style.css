@@ -1,0 +1,3 @@
+.background {
+    animation: delay .75s, fadeIn 1s .75s, slide 1s .75s ease;
+}

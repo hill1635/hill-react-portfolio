@@ -21,3 +21,12 @@ section {
 .profilePic {
   transform: rotate(-5deg);
 }
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25px) translateY(-25px) rotate(-3deg);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}

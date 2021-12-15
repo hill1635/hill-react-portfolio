@@ -3,7 +3,7 @@ import "./style.css";
 
 function Background() {
   return (
-    <section className="col-11 bg-light rounded shadow-lg mx-auto my-4 p-4">
+    <section className="background col-11 bg-light rounded shadow-lg mx-auto my-4 p-4">
       <p>
         <strong>Background: </strong> MERN stack (mostly)
       </p>

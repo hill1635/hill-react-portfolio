@@ -1,0 +1,16 @@
+.basicInfo {
+  animation: delay 0.5s, fadeIn 1s 0.5s, slide 1s 0.5s ease;
+}
+
+.picDiv {
+  animation: delay .75s, fadeIn 1s .75s, picSlide 1s .75s ease;
+}
+
+@keyframes picSlide {
+  0% {
+    transform: translateX(75px) translateY(-75px) rotate(-20deg);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
