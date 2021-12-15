@@ -1,9 +1,9 @@
 .basicInfo {
-  animation: delay 0.5s, fadeIn 1s 0.5s, slide 1s 0.5s ease;
+  animation: delay 0.25s, fadeIn 1s 0.25s, slide 1s 0.25s ease;
 }
 
 .picDiv {
-  animation: delay .75s, fadeIn 1s .75s, picSlide 1s .75s ease;
+  animation: delay .5s, fadeIn 1s .5s, picSlide 1s .5s ease;
 }
 
 @keyframes picSlide {

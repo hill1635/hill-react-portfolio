@@ -3,9 +3,13 @@
   width: 200px;
 }
 
+.commits {
+  animation: delay 1s, fadeIn 1s 1s, slide 1s 1s;
+}
+
 section {
   display: block;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   font-size: 18px;
 }
 

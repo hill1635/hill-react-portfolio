@@ -14,7 +14,7 @@ function About() {
         </div>
         <BasicInfo/>
         <Background/>
-        <div className="col-11 mx-auto bg-light rounded p-3 shadow-lg my-4 text-center">
+        <div className="commits col-11 mx-auto bg-light rounded p-3 shadow-lg my-4 text-center">
           <h4>Commit History Feed</h4>
         <img src="http://ghchart.rshah.org/hill1635" alt="GitHub Commit History" className="mx-auto"/>
         <p>*Not as exciting or adorable as a panda cam, but it's the best I can do.</p>
