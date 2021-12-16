@@ -6,26 +6,25 @@ function ExpandedNav() {
   return (
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav mx-auto">
-        <a
-          href="/about"
-          className="nav-link links mr-lg-5 mr-md-4 py-2 px-3 bg-light shadow rounded"
-        >
-          <div className="d-inline-block">
+        <div className="bg">
+          <a
+            href="/about"
+            className="nav-link links py-2 px-3 bg-light shadow rounded"
+          >
             <span className="link-text">About</span>
-          </div>
-        </a>
-        <a
-          href="/portfolio"
-          className="nav-link links mx-lg-5 mx-md-4 py-2 px-3 bg-light shadow rounded"
-        >
-          <div className="d-inline-block">
+          </a>
+        </div>
+        <div className="bg">
+          <a
+            href="/portfolio"
+            className="nav-link links py-2 px-3 bg-light shadow rounded"
+          >
             <span className="link-text">Portfolio</span>
-          </div>
-        </a>
-        <div className="dropdown links mx-lg-5 mx-md-4 py-2 px-3 bg-light shadow rounded">
-          <div className="d-inline-block">
+          </a>
+        </div>
+        <div className="bg">
+          <div className="dropdown links py-2 px-3 bg-light shadow rounded">
             <span
-              className="links"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
