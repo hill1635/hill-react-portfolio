@@ -38,36 +38,6 @@ nav {
   text-align: center;
 }
 
-.links {
-  font-family: Sanchez, serif;
-  font-size: 20px;
-  background-color: #fbfbf9;
-  color: rgb(25, 25, 25, 0.95);
-  font-weight: bold;
-}
-
-.underline {
-  margin: 2px auto 0px auto;
-  padding: 1.2px;
-  opacity: 85%;
-}
-
-.u-about {
-  background: radial-gradient(circle at 50%, rgb(22, 103, 195), transparent);
-}
-
-.u-portfolio {
-  background: radial-gradient(circle at 50%, rgb(113, 26, 144), transparent);
-}
-
-.u-contact {
-  background: radial-gradient(
-    circle at 50%,
-    rgb(227, 31, 13, 0.95),
-    transparent
-  );
-}
-
 .b-icon {
   color: rgb(22, 103, 195, 0.95);
 }

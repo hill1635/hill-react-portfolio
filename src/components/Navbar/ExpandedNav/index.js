@@ -12,7 +12,6 @@ function ExpandedNav() {
         >
           <div className="d-inline-block">
             <span className="link-text">About</span>
-            <div className="underline u-about"></div>
           </div>
         </a>
         <a
@@ -21,7 +20,6 @@ function ExpandedNav() {
         >
           <div className="d-inline-block">
             <span className="link-text">Portfolio</span>
-            <div className="underline u-portfolio"></div>
           </div>
         </a>
         <div className="dropdown links mx-lg-5 mx-md-4 py-2 px-3 bg-light shadow rounded">
@@ -33,7 +31,6 @@ function ExpandedNav() {
             >
               Contact
             </span>
-            <div className="underline u-contact"></div>
             <Dropdown />
           </div>
         </div>
