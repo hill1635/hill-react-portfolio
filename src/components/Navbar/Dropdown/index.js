@@ -3,7 +3,7 @@ import "./style.css";
 
 function Dropdown() {
   return (
-    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <div className="dropdown-menu dropdown-menu-right border border-dark" aria-labelledby="dropdownMenuButton1">
       <ul className="list-group list-group-horizontal list-unstyled">
         <li>
           <a target="_blank" href="https://www.facebook.com/tucker.hill.75/">
