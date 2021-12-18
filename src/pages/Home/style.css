@@ -1,32 +1,30 @@
-  .biopic {
-    animation: delay .5s, pop 1s .5s;
-    background: transparent;
-    display: inline-block;
-    float: left;
-    margin-left: -50px;
-    padding: 0px;
-  }
-  
-  .intro {
-    animation: delay 1s, pop 1s 1s;
-    border-radius: 5px;
-    display: inline-block;
-    float: right;
-    font-size: 30px;
-    font-weight: 300;
-    margin: 50px -50px 0px 0px;
-    padding: 50px 40px 50px 40px;
-  }
-  
-  .learnMore {
-    animation: delay 1.5s, pop 1s 1.5s;
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Sanchez", serif;
-    font-size: 30px;
-    margin: 25px auto -50px auto;
-    padding: 10px;
-    text-align: center;
-    width: 25%;
-  }
+.biopic {
+  animation: delay 0.5s, pop 1s 0.5s;
+  background: transparent;
+  float: left;
+  margin-left: -50px;
+  padding: 0px;
+}
+
+.intro {
+  animation: delay 1s, pop 1s 1s;
+  border-radius: 5px;
+  float: right;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 100px -35px 0px 0px;
+  padding: 50px 40px 50px 40px;
+}
+
+.learnMore {
+  animation: delay 1.5s, pop 1s 1.5s;
+  border-radius: 5px;
+  color: rgb(25, 25, 25, 0.92);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Sanchez", serif;
+  font-size: 30px;
+  margin: 25px auto -50px auto;
+  padding: 10px;
+  text-align: center;
+}
