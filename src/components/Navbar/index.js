@@ -5,7 +5,7 @@ import CollapsedNav from "./CollapsedNav";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md">
+    <nav className="navbar navbar-expand-md shadow-lg">
       <a className="name" href="/">
         <span>
           <span className="first col-12">
