@@ -13,7 +13,7 @@ function App() {
   console.log(process.env.NODE_ENV);
   return (
     <Router>
-      <div className="container-flex col-12 p-0 m-0">
+      <div className="page col-12 p-0 m-0">
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />

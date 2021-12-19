@@ -4,8 +4,8 @@ import "./style.scss";
 function Home() {
   return (
     <main className="bg-main col-11 col-md-10 col-lg-8 text-center">
-      <header className="header bg-light shadow-lg">
-        <h1 className="typedText bg-light">'Hello World!'</h1>
+      <header className="header shadow-lg">
+        <h1 className="typedText">'Hello World!'</h1>
       </header>
       <div className="clearfix">
         <div className="biopic col-md-6 col-sm-12">
