@@ -1,20 +1,16 @@
 @import "../../../index.scss";
 
 .links {
-  background-color: #fbfbf9;
-  color: rgb(25, 25, 25, 0.95);
+  // background-color: #fbfbf9;
+  color: $yellow;
+  cursor: pointer;
   font-family: Sanchez, serif;
   font-size: 20px;
   font-weight: bold;
-  margin: -7px 7px 7px -7px;
   width: 100%;
 }
 
-.bg {
-  background-color: rgb(22, 103, 195, 0.66);
-  border-radius: 5px;
-  display: inline-flex;
-  /* float: right; */
-  margin: 0px 0px 0px 50px;
-  text-align: center;
+.links:hover {
+  text-decoration: none;
+  color: $dark-yellow;
 }

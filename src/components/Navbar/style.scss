@@ -2,17 +2,16 @@
 
 nav {
   margin-bottom: 100px;
-  background-color: $bg-h;
+  background-color: rgba($bg-h, .75);
 }
 
 .name {
-  background-color: $bg-h;
-  // border-radius: 5px;
-  cursor: pointer;
   font-family: "Sanchez", serif;
   letter-spacing: 0.05em;
-  padding: 10px 0px 10px 0px;
-  // position: absolute;
+}
+
+.name:hover {
+  text-decoration: none;
 }
 
 .divider {
@@ -25,7 +24,7 @@ nav {
 .first {
   color: $green;
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 900;
   text-align: center;
   margin: 0px;

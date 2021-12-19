@@ -5,9 +5,9 @@ import CollapsedNav from "./CollapsedNav";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md col-12">
-      <a href="/">
-        <span className="name">
+    <nav className="navbar navbar-expand-md">
+      <a className="name" href="/">
+        <span>
           <span className="first col-12">
             TUCKER
           </span>

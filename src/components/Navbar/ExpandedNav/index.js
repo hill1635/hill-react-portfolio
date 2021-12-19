@@ -7,29 +7,23 @@ function ExpandedNav() {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="w-100">
         <div className="float-right">
-          <div className="bg">
             <a
               href="/about"
-              className="nav-link links py-2 px-3 bg-light shadow rounded"
+              className="nav-link links d-inline py-2 px-3"
             >
-              <span className="link-text">About</span>
+              <span className="link-text">&lt;About/&gt;</span>
             </a>
-          </div>
-          <div className="bg">
             <a
               href="/portfolio"
-              className="nav-link links py-2 px-3 bg-light shadow rounded"
+              className="nav-link links d-inline py-2 px-3"
             >
-              <span className="link-text">Portfolio</span>
+              <span className="link-text">&lt;Portfolio/&gt;</span>
             </a>
-          </div>
-          <div className="bg">
-            <div className="dropdown links py-2 px-3 bg-light shadow rounded">
+            <div className="dropdown links d-inline py-2 px-3">
               <span data-bs-toggle="dropdown" aria-expanded="false">
-                Contact
+                &lt;Contact/&gt;
               </span>
               <Dropdown />
-            </div>
           </div>
         </div>
       </div>
