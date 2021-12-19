@@ -1,3 +1,5 @@
+@import "../../index.scss";
+
 .biopic {
   animation: delay 0.5s, pop 1s 0.5s;
   background: transparent;
@@ -6,25 +8,30 @@
   padding: 0px;
 }
 
+.me {
+  box-shadow: 13px 10px $dark-red;
+}
+
 .intro {
   animation: delay 1s, pop 1s 1s;
-  border-radius: 5px;
+  // border-radius: 5px;
+  box-shadow: 10px 7px $dark-green;
   float: right;
   font-size: 30px;
   font-weight: 300;
-  margin: 100px -35px 0px 0px;
-  padding: 50px 40px 50px 40px;
+  margin: 75px -45px 0px 0px;
+  text-align: left;
 }
 
 .learnMore {
   animation: delay 1.5s, pop 1s 1.5s;
-  border-radius: 5px;
-  color: rgb(25, 25, 25, 0.92);
+  // border-radius: 5px;
+  box-shadow: 10px 7px $dark-yellow;
+  color: $yellow;
   cursor: pointer;
   display: inline-block;
   font-family: "Sanchez", serif;
   font-size: 30px;
   margin: 25px auto -50px auto;
-  padding: 10px;
   text-align: center;
 }

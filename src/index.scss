@@ -17,6 +17,7 @@ $dark-aqua: #689d6a;
 $aqua: #8ec07c;
 $dark-orange: #d65d0e;
 $orange: #fe8019;
+$gray: #928374;
 
 body {
   font-family: "Roboto Condensed", sans-serif;
@@ -35,11 +36,8 @@ main {
 
 header {
   background-color: $bg-h;
+  box-shadow: 10px 7px $dark-blue;
   color: white;
-}
-
-h1 {
-  text-shadow: .75px .75px rgba(0, 0, 0, 0.25);
 }
 
 footer {
@@ -48,12 +46,42 @@ footer {
 }
 
 .page {
-  background-color: $bg3;
+  background-color: $bg;
 }
 
 .bg-main {
   background-color: $bg1;
-  border-radius: 5px;
+  box-shadow: 13px 10px $dark-orange;
   margin: 50px auto 0px auto;
   padding: 0px;
+}
+
+.infoBox {
+  background-color: $bg-h;
+  color: white;
+}
+
+.string {
+  color: $green;
+  font-family: Sanchez;
+}
+
+.statement {
+  color: $red;
+  font-family: Sanchez;
+}
+
+.header1 {
+  color: $dark-blue;
+  font-family: Sanchez;
+  font-size: 36px;
+  margin-top: 15px;
+  opacity: 25%;
+  text-align: center;
+}
+
+.element {
+  color: $dark-blue;
+  font-family: Sanchez;
+  opacity: 25%;
 }
