@@ -3,14 +3,14 @@ import "./style.scss";
 
 function BasicInfo() {
   return (
-    <section className="basicInfo col-11 clearfix mx-auto my-4 p-0">
-      <div className="picDiv col-7 col-md-6 col-lg-5 float-right p-0 rounded">
+    <section className="basicInfo infoBox col-11 clearfix mx-auto my-4 p-0">
+      <div className="picDiv col-7 col-md-6 col-lg-5 float-right p-0">
         <img
           src="./images/me.jpeg"
-          className="profilePic float-right p-4 rounded shadow m-0 w-100 bg-light"
+          className="profilePic float-right m-0 w-100"
         ></img>
       </div>
-      <div className="text-wrap bg-light rounded p-4">
+      <div className="text-wrap p-4">
         <p>
           <strong>From: </strong> Norway, ME
         </p>

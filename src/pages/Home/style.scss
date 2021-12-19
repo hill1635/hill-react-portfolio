@@ -8,14 +8,9 @@
   padding: 0px;
 }
 
-.me {
-  box-shadow: 13px 10px $dark-yellow;
-}
-
 .intro {
   animation: delay 1s, pop 1s 1s;
   // border-radius: 5px;
-  box-shadow: 10px 7px $dark-yellow;
   float: right;
   font-size: 30px;
   font-weight: 300;
@@ -26,7 +21,7 @@
 .learnMore {
   animation: delay 1.5s, pop 1s 1.5s;
   // border-radius: 5px;
-  box-shadow: 10px 7px $dark-red;
+  box-shadow: 10px 7px $dark-blue;
   color: $yellow;
   cursor: pointer;
   display: inline-block;

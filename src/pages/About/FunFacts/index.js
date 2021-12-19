@@ -3,12 +3,12 @@ import "./style.scss";
 
 function FunFacts() {
   return (
-    <section className="funFacts text-center col-11 col-sm-6 bg-light rounded shadow-lg mx-auto p-0 my-4">
+    <section className="funFacts infoBox text-center col-11 col-sm-6 mx-auto p-0 my-4">
       <div id="carouselExampleIndicators" className="carousel slide h-100 py-4">
-        <header className="header w-75">
+        <div className="header w-75">
             <h3>Fun Facts:</h3>
             <hr></hr>
-        </header>
+        </div>
         <div className="carousel-inner facts px-5">
             <div className="carousel-item active fact">
             <p>
@@ -37,10 +37,10 @@ function FunFacts() {
                 semesters of Italian paying off right there.
             </p>
             </div>
-        <button className="directionals carousel-control-prev bg-transparent text-body h-100 border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button className="directionals carousel-control-prev bg-transparent text-white h-100 border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <i class="fas fa-chevron-left"></i>
         </button>
-        <button className="directionals carousel-control-next bg-transparent text-body h-100 border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button className="directionals carousel-control-next bg-transparent text-white h-100 border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
             <i class="fas fa-chevron-right"></i>
         </button>
         </div>
