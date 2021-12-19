@@ -50,11 +50,11 @@ img {
 }
 
 .page {
-  background-color: $bg2;
+  background-color: $bg1;
 }
 
 .bg-main {
-  background-color: $bg1;
+  background-color: $bg2;
   box-shadow: 13px 10px $bg-h;
   margin: 50px auto 0px auto;
   padding: 0px;
@@ -69,7 +69,8 @@ img {
 .linkBox {
   background-color: $bg-h;
   box-shadow: 10px 7px $dark-blue;
-  color: white;
+  color: $yellow;
+  font-family: Sanchez;
 }
 
 .string {

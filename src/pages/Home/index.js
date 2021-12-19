@@ -30,7 +30,7 @@ function Home() {
         </div>
       </div>
       <a href="/about">
-        <span className="infoBox learnMore p-4 mt-5">
+        <span className="linkBox learnMore p-4 mt-5">
           <p className="m-0">&lt;LearnMore/&gt;</p>
         </span>
       </a>
