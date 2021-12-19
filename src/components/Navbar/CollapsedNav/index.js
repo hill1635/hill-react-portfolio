@@ -1,6 +1,6 @@
 import React from "react";
 import Dropdown from "../Dropdown";
-import "./style.css";
+import "./style.scss";
 
 function CollapsedNav() {
   return (

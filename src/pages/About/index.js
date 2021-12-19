@@ -3,7 +3,7 @@ import BasicInfo from "./BasicInfo";
 import Background from "./Background";
 import FunFacts from "./FunFacts";
 import Resume from "./Resume";
-import "./style.css";
+import "./style.scss";
 
 function About() {
   return (

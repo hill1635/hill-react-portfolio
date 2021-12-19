@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import '@fortawesome/fontawesome-free/js/all.js';
 import '@fortawesome/fontawesome-free/css/all.css';
-import "./App.css";
+import "./App.scss";
 
 function App() {
   console.log(process.env.NODE_ENV);
