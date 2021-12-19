@@ -11,7 +11,7 @@ function Navbar() {
           <span className="first col-12">
             TUCKER
           </span>
-          <hr className="divider"></hr>
+          <div className="divider"></div>
           <span className="last col-12">HILL</span>
         </span>
       </a>

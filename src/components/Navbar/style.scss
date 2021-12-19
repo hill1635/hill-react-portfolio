@@ -8,6 +8,7 @@ nav {
 .name {
   font-family: "Sanchez", serif;
   letter-spacing: 0.05em;
+  padding: 5px;
 }
 
 .name:hover {
@@ -16,28 +17,24 @@ nav {
 
 .divider {
   background-color: $red;
-  margin: 0px auto 0px auto;
-  padding: .5px;
-  width: 75%;
+  display: inline;
+  padding: 1px;
 }
 
 .first {
   color: $green;
-  display: block;
-  font-size: 18px;
-  font-weight: 900;
-  text-align: center;
-  margin: 0px;
+  display: inline;
+  font-size: 24px;
+  margin-right: -5px;
   padding: 0px;
 }
 
 .last {
   color: $yellow;
-  display: block;
-  font-weight: 600;
-  font-size: 26px;
+  display: inline;
+  font-size: 24px;
   letter-spacing: 0.10em;
-  text-align: center;
+  margin-left: -5px;
 }
 
 .b-icon {
