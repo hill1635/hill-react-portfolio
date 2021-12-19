@@ -1,9 +1,22 @@
+@import "../../../index.scss";
+
 .basicInfo {
   animation: delay 0.25s, fadeIn 1s 0.25s, slide 1s 0.25s ease;
 }
 
 .picDiv {
-  animation: delay .5s, fadeIn 1s .5s, picSlide 1s .5s ease;
+  animation: delay 0.5s, fadeIn 1s 0.5s, picSlide 1s 0.5s ease;
+}
+
+.object {
+  color: $yellow;
+  font-family: Sanchez;
+  // font-weight: bold;
+}
+
+.character {
+  color: rgba(255, 255, 255, 0.25);
+  font-family: Sanchez;
 }
 
 @keyframes picSlide {
