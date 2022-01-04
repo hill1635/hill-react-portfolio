@@ -5,7 +5,7 @@ import "./style.scss";
 function Portfolio() {
   return (
     <div>
-      <main className="col-9 mt-5 pt-2 content">
+      <main className="col-9 mt-5 pt-2">
           <Project />
       </main>
     </div>
